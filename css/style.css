@@ -88,17 +88,13 @@ body {
   list-style: none;
 }
 
-.fz_hack {
-  font-size: 0;
-}
-
-.section-title {
+/* .section-title {
 
 }
 
 .section-descr {
 
-}
+} */
 
 .container {
   max-width: 1310px;
@@ -127,6 +123,11 @@ body {
 }
 
 .header-bottom__whatplay {
+  display: none;
+}
+
+.header__nav-right-img,
+.header__nav-right-img-2 {
   display: none;
 }
 
