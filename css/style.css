@@ -101,11 +101,132 @@ body {
 }
 
 .container {
-  max-width: 1210px;
-  padding: 0 50px;
+  max-width: 1310px;
+  padding: 0 100px;
   margin: 0 auto;
 }
 
-.header__logo {
-  padding-top: 30px;
+
+/* header */
+
+.header-top {
+  display: none;
+  font-size: 0;
+}
+
+.header-center__burger {
+  display: none;
+}
+
+.header__close-menu {
+  display: none;
+}
+
+.header-bottom__play-btn {
+  display: none;
+}
+
+.header-bottom__whatplay {
+  display: none;
+}
+
+.header-center {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-center__buttons {
+  padding: 20px 0;
+  width: 152px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-search {
+  padding-top: 5px;
+}
+
+.header-enter {
+  cursor: pointer;
+  padding: 10px 31px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+  border-radius: 77px;
+}
+
+.menu__link {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--color-black);
+}
+
+.menu {
+  width: 638px;
+  justify-content: space-between;
+}
+
+.header-bottom {
+  font-size: 0;
+  outline: 1px solid var(--color-light-color);
+}
+
+.header-bottom__container {
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-bottom__link {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.header-bottom__link:not(:last-child) {
+  margin-right: 52px;
+}
+
+.header-bottom__btn {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.header-bottom__btn-1,
+.header-bottom__btn-2 {
+  width: 173px;
+  height: 40px;
+  border-left: 1px solid var(--color-light-color);
+  border-right: 1px solid var(--color-light-color);
+}
+
+.header-bottom__btn-2 {
+  border-left: transparent;
+}
+
+.header-bottom__subtitle {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  color: var(--color-text-gray);
+  margin-bottom: 5px;
+}
+
+.header-bottom__title {
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.header-bottom__content {
+  padding-top: 3px;
+}
+
+.header-bottom__play-button {
+  display: none;
 }

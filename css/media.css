@@ -1,0 +1,149 @@
+@media (max-width:1200px) {
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  background: #F2F2F2;
+  align-items: center;
+}
+
+.header-top__logo {
+  padding: 23px 0;
+}
+
+.header-center__logo {
+  display: none;
+}
+
+.header-top__enter {
+  display: none;
+}
+
+.header-bottom__limitation-icon {
+  display: none;
+}
+
+.header-bottom__link:not(:last-child) {
+  margin-right: 29px;
+}
+
+.header-bottom__btn-1,
+.header-bottom__btn-2 {
+  width: 150px;
+}
+
+.header-bottom__container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+}
+
+@media (max-width:1000px) {
+
+.container {
+  padding: 0 115px;
+}
+
+.header-center__burger {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-image: url(../img/burger-icon.svg);
+  background-repeat: no-repeat;
+}
+
+.header__close-menu {
+  width: 24px;
+  height: 24px;
+}
+
+.nav {
+  display: none;
+}
+
+.header-bottom__buttons {
+  display: none;
+}
+
+.header-bottom__play-button {
+  display: block;
+  padding: 20px 0;
+}
+
+
+}
+
+@media (max-width:750px) {
+
+.container {
+  padding: 0 50px;
+}
+
+.header-bottom__list,
+.header-bottom__play-button {
+  display: none;
+}
+
+.header-bottom__whatplay {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-bottom__play-btn {
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--color-primary);
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 5px;
+}
+
+
+}
+
+@media (max-width:500px) {
+
+.container {
+  padding: 0 32px;
+}
+
+.header-enter {
+  display: none;
+}
+
+
+
+.header-center {
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.header-center__buttons {
+  width: 24px;
+  height: 24px;
+}
+
+.header-top__enter {
+  display: block;
+  cursor: pointer;
+  padding: 8px 22px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+  border-radius: 77px;
+}
+
+.header-top__logo {
+  padding: 22px 0;
+}
+
+
+}
