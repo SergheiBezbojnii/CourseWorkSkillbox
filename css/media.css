@@ -226,8 +226,17 @@
   background-image: none;
 }
 
-.header-enter {
+.header-center__enter {
   display: none;
+}
+
+.header-top__enter {
+  display: block;
+  cursor: pointer;
+  padding: 8px 22px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
 }
 
 .header-center {
@@ -238,18 +247,6 @@
 .header-center__buttons {
   width: 24px;
   height: 24px;
-}
-
-.header-top__enter {
-  display: block;
-  cursor: pointer;
-  padding: 8px 22px;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 500;
-  color: var(--color-black);
-  border: 2px solid var(--color-black);
-  border-radius: 77px;
 }
 
 .header-top__logo {

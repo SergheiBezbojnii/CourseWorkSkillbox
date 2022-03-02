@@ -84,6 +84,10 @@ body {
   display: flex;
 }
   
+.fz-hack {
+  font-size: 0;
+}
+
 .btn-reset {
   padding: 0;
   margin: 0;  
@@ -114,7 +118,6 @@ body {
 
 .header-top {
   display: none;
-  font-size: 0;
 }
 
 .header-center__burger {
@@ -154,12 +157,15 @@ body {
   padding-top: 5px;
 }
 
-.header-enter {
-  cursor: pointer;
+.header-center__enter {
   padding: 10px 31px;
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
+}
+
+.header__link {
+  cursor: pointer;
   color: var(--color-black);
   border: 2px solid var(--color-black);
   border-radius: 77px;
