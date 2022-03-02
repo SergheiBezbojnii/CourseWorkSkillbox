@@ -287,6 +287,10 @@ body {
   border-radius: 40px;
 }
 
+.hero__span {
+  color: var(--color-primary);
+}
+
 /* podcasts */
 
 .podcasts {
@@ -336,7 +340,8 @@ body {
   min-height: 31px;
   border-top: 1px solid var(--color-light-color);
   font-size: 16px;
-  padding-left: 30px;
+  align-items: center;
+  font-size: 0;
 }
 
 .podcasts__content-item-left {
@@ -347,7 +352,7 @@ body {
   font-size: 12px;
   line-height: 12px;
   font-weight: 400;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
   color: var(--color-black);
 }
 
@@ -355,7 +360,7 @@ body {
   font-size: 20px;
   line-height: 20px;
   font-weight: 400;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
   color: var(--color-black);
 }
 
@@ -366,25 +371,37 @@ body {
   color: var(--color-text-gray);
 }
 
-.podcasts__social-content {
-  width: 45px;
-  height: 16px;
-  padding-top: 9px;
+.podcasts__social-list {
+  padding-left: 30px;
+  padding-top: 3px;
 }
 
-.podcasts__social-content_text {
+.podcasts__social-link {
+  width: 13px;
+  height: 13px;
+}
+
+.podcasts__social-content-text {
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
   color: var(--color-text-gray);
 }
 
-.podcasts__social-list_item:not(:last-child) {
+.podcasts__social-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
 .podcasts__social-link:not(:last-child) {
+  margin-right: 3px;
+}
+
+.podcasts__social-link-2:not(:last-child) {
   margin-right: 6px;
+}
+
+.podcasts__social-link-3:not(:last-child) {
+  margin-right: 5px;
 }
 
 .podcasts__button {
@@ -398,18 +415,3 @@ body {
   border-radius: 40px;
 }
 
-.podcasts__time {
-  line-height: 11px;
-  margin-bottom: 7px;
-}
-
-.podcasts__name {
-  font-size: 16px;
-  line-height: 16px;
-  margin-bottom: 6px;
-}
-
-.podcasts__autor {
-  font-size: 12px;
-  line-height: 12px;
-}

@@ -291,6 +291,9 @@
   width: 100%;
 }
 
+.podcasts__list-item-2 {
+  display: none;
+}
 
 
 }
@@ -336,14 +339,55 @@
 }
 
 .podcasts__content-item-top {
-  padding: 17px 15px 15px 15px;
+  padding: 17px 16px 16px 16px;
 }
 
 .podcasts__content-item-top {
   min-height: 83px;
 }
 
+.podcasts__time {
+  line-height: 11px;
+  margin-bottom: 8px;
+}
 
+.podcasts__name {
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
 
+.podcasts__autor {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.podcasts__content-item-bottom {
+  min-height: 27px;
+}
+
+.podcasts__list-item:not(:last-child) {
+  margin-bottom: 31px;
+}
+
+.podcasts__social-content-text {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.podcasts__social-list {
+  padding-top: 0;
+  padding-left: 34px;
+}
+
+.podcasts__list {
+  margin-bottom: 0;
+}
+
+.podcasts__button {
+  padding: 15px 28px;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 }
