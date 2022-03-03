@@ -107,6 +107,21 @@ body {
   padding: 0;
 }
 
+.title-reset {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.subtitle-reset {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--color-black);
+}
+
 .container {
   max-width: 1310px;
   padding: 0 100px;
@@ -305,9 +320,6 @@ body {
 }
 
 .podcasts__title {
-  font-size: 48px;
-  line-height: 48px;
-  font-weight: 400;
   margin-bottom: 29px;
 }
 
@@ -363,11 +375,7 @@ body {
 }
 
 .podcasts__name {
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 400;
   margin-bottom: 3px;
-  color: var(--color-black);
 }
 
 .podcasts__autor {
@@ -421,3 +429,202 @@ body {
   border-radius: 40px;
 }
 
+/* broadcasts */
+
+.jq-selectbox__select {
+  font-family: 'Muller';
+	position: relative;
+  padding: 4px 50px 11px 12px;
+  width: 255px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-light-black);
+  background: var(--color-light-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow: none;
+  z-index: 10;
+}
+
+.jq-selectbox__select:hover {
+  background: var(--color-light-color);
+}
+
+.jq-selectbox.focused .jq-selectbox__select {
+  border: 1px solid var(--color-light-color);
+}
+
+.jq-selectbox__select-text {
+  overflow: visible;
+}
+
+.jq-selectbox__trigger {
+  border: none;
+  width: 29px;
+  top: 3px;
+  right: 1px;
+}
+
+.jq-selectbox__trigger-arrow {
+  display: none;
+}
+
+.jq-selectbox__trigger::before {
+  content: url(../img/broadcasts-arrow-up.svg);
+  position: absolute;
+  top: 2px;
+  right: 0;
+  left: 2px;
+  bottom: 0;
+}
+
+.jq-selectbox.jqselect.dropdown.opened .jq-selectbox__trigger::before {
+  content: url(../img/broadcasts-arrow-down.svg);
+  position: absolute;
+  top: 2px;
+  right: 0;
+  left: 2px;
+  bottom: 0;
+}
+
+.jq-selectbox__dropdown {
+	position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: inherit;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  background: var(--color-light-color);
+}
+
+.jq-selectbox li {
+  padding: 10px 10px 10px;
+}
+
+.jq-selectbox li.selected {
+  background-color: var(--color-light-color);
+  color: var(--color-light-black);
+}
+
+.selected.sel.disabled {
+  background-color: var(--color-light-color);
+}
+
+.broadcasts {
+  padding-top: 94px;
+  padding-bottom: 64px;
+}
+
+.broadcasts__list-left {
+  display: none;
+}
+
+.broadcasts__list {
+  flex-wrap: wrap;
+}
+
+.broadcasts__left-content,
+.broadcasts__bottom-content,
+.broadcasts__bottom-descr-content,
+.broadcasts__list-item-content {
+  flex-direction:column;
+}
+
+.broadcasts__list-item-content {
+  font-size: 0;
+}
+
+.broadcasts__title {
+  margin-bottom: 9px;
+}
+
+.broadcasts__author {
+  color: var(--color-text-gray);
+  margin-bottom: 8px;
+}
+
+.broadcasts__bottom-content {
+  margin-top: auto;
+  font-size: 0;
+}
+
+.broadcasts__left-content {
+  margin-right: 30px;
+}
+
+.broadcasts__right-content {
+  font-size: 0;
+  padding-top: 13px;
+}
+
+.broadcasts__list-item {
+  margin-bottom: 30px;
+}
+
+.broadcasts__list-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.broadcasts__content {
+  outline: 1px solid var(--color-light-color);
+  flex-direction: column;
+  padding: 20px 70px 20px 16px;
+}
+
+.broadcasts__name {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.broadcasts__time {
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--color-text-gray);
+  margin-bottom: 20px;
+}
+
+.broadcasts__link {
+  align-items: center;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.broadcasts__bottom-content {
+  margin-top: 227px;
+}
+
+.broadcasts__bottom-link {
+  width: 160px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 9px 44px 8px 44px;
+  border: 2px solid var(--color-black);
+  border-radius: 77px;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.broadcasts__bottom-content-img {
+  margin-bottom: 24px;
+}
+
+.broadcasts__link-svg {
+  margin-right: 3px;
+}
+
+.broadcasts__bottom-descr {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--color-text-gray);
+}
