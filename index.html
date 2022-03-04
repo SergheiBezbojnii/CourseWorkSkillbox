@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- <link rel="stylesheet" href="css/choices.min.css"> -->
     <link rel="stylesheet" href="css/jquery.formstyler.css" />
     <link rel="stylesheet" href="css/jquery.formstyler.theme.css" />
     <link rel="stylesheet" href="css/style.css">
@@ -793,20 +792,18 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
-                                    <img src="img/broadcast-1-d.jpg" class="broadcast__list-item-img" alt="Обложка передачи">
+                                    <source srcset="img/broadcast-1-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <img src="img/broadcast-1-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
                                     <h3 class="broadcasts__name subtitle-reset section-reset">О&nbsp;людях и&nbsp;книгах
                                     </h3>
                                     <span class="broadcasts__time">Анонсируется отдельно</span>
                                     <a href="#" class="broadcasts__link flex">Подробнее
-                                        <svg class="broadcasts__link-svg" width="28" height="12" viewbox="0 0 28 12"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
-                                                fill="#121723" />
-                                        </svg>
+                                        <picture>
+                                            <source srcset="img/broadcasts-arrow-mobile.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/broadcast-arrow.svg" class="broadcasts__link-arrow" alt="">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -814,19 +811,17 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-2-m.jpg" type="image/png" media="(max-width: 500px)">
-                                    <img src="img/broadcast-2-d.jpg" alt="Обложка передачи">
+                                    <source srcset="img/broadcast-2-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <img src="img/broadcast-2-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
                                     <h3 class="broadcasts__name subtitle-reset section-reset">Графомания&nbsp;td.</h3>
                                     <span class="broadcasts__time">По&nbsp;понедельникам в&nbsp;10:00</span>
                                     <a href="#" class="broadcasts__link flex">Подробнее
-                                        <svg class="broadcasts__link-svg" width="28" height="12" viewbox="0 0 28 12"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
-                                                fill="#121723" />
-                                        </svg>
+                                        <picture>
+                                            <source srcset="img/broadcasts-arrow-mobile.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/broadcast-arrow.svg" class="broadcasts__link-arrow" alt="">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -834,20 +829,18 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-3-m.jpg" type="image/png" media="(max-width: 500px)">
-                                    <img src="img/broadcast-3-d.jpg" alt="Обложка передачи">
+                                    <source srcset="img/broadcast-3-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <img src="img/broadcast-3-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
                                     <h3 class="broadcasts__name subtitle-reset section-reset">Не&nbsp;Рим, не&nbsp;Троя
                                     </h3>
-                                    <span class="broadcasts__time">По&nbsp;вторникам в&nbsp;12:00</span>
+                                    <span class="broadcasts__time">По вторникам в 12:00</span>
                                     <a href="#" class="broadcasts__link flex">Подробнее
-                                        <svg class="broadcasts__link-svg" width="28" height="12" viewbox="0 0 28 12"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
-                                                fill="#121723" />
-                                        </svg>
+                                        <picture>
+                                            <source srcset="img/broadcasts-arrow-mobile.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/broadcast-arrow.svg" class="broadcasts__link-arrow" alt="">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -855,19 +848,17 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-4-m.jpg" type="image/png" media="(max-width: 500px)">
-                                    <img src="img/broadcast-4-d.jpg" alt="Обложка передачи">
+                                    <source srcset="img/broadcast-4-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <img src="img/broadcast-4-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
                                     <h3 class="broadcasts__name subtitle-reset section-reset">Эрудит</h3>
                                     <span class="broadcasts__time">По&nbsp;пятницам в&nbsp;17:00</span>
                                     <a href="#" class="broadcasts__link flex">Подробнее
-                                        <svg class="broadcasts__link-svg" width="28" height="12" viewbox="0 0 28 12"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
-                                                fill="#121723" />
-                                        </svg>
+                                        <picture>
+                                            <source srcset="img/broadcasts-arrow-mobile.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/broadcast-arrow.svg" class="broadcasts__link-arrow" alt="">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -875,19 +866,17 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-5-m.jpg" type="image/png" media="(max-width: 500px)">
-                                    <img src="img/broadcast-5-d.jpg" alt="Обложка передачи">
+                                    <source srcset="img/broadcast-5-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <img src="img/broadcast-5-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
                                     <h3 class="broadcasts__name subtitle-reset section-reset">Тонкости эпох</h3>
                                     <span class="broadcasts__time">По&nbsp;субботам в&nbsp;10:00</span>
                                     <a href="#" class="broadcasts__link flex">Подробнее
-                                        <svg class="broadcasts__link-svg" width="28" height="12" viewbox="0 0 28 12"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
-                                                fill="#121723" />
-                                        </svg>
+                                        <picture>
+                                            <source srcset="img/broadcasts-arrow-mobile.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/broadcast-arrow.svg" class="broadcasts__link-arrow" alt="">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -895,19 +884,17 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-6-m.jpg" type="image/png" media="(max-width: 500px)">
-                                    <img src="img/broadcast-6-d.jpg" alt="Обложка передачи">
+                                    <source srcset="img/broadcast-6-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <img src="img/broadcast-6-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
                                     <h3 class="broadcasts__name subtitle-reset section-reset">Живые мысли</h3>
                                     <span class="broadcasts__time">По&nbsp;воскресеньям в&nbsp;15:30</span>
                                     <a href="#" class="broadcasts__link flex">Подробнее
-                                        <svg class="broadcasts__link-svg" width="28" height="12" viewbox="0 0 28 12"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
-                                                fill="#121723" />
-                                        </svg>
+                                        <picture>
+                                            <source srcset="img/broadcasts-arrow-mobile.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/broadcast-arrow.svg" class="broadcasts__link-arrow" alt="">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -915,6 +902,7 @@
                     </ul>
                     <div class="broadcasts__bottom-content flex">
                         <picture>
+                            <source srcset="img/broadcast-mic-320.png" type="image/png" media="(max-width: 350px)">
                             <source srcset="img/broadcast-mic-768.png" type="image/png" media="(max-width: 1000px)">
                             <img src="img/broadcast-mic-1920.png" class="broadcasts__bottom-content-img"
                                 alt="Изображение микрофона">
@@ -932,7 +920,7 @@
                                 </svg>
                                 Архив</a>
                             <p class="broadcasts__bottom-descr section-reset">
-                                В&nbsp;архив попадают все передачи, которые вы&nbsp;пропустили! <b>Enjoy :)</b>
+                                В&nbsp;архив попадают все передачи, которые&nbsp;вы пропустили! <b>Enjoy :)</b>
                             </p>
                         </div>
                     </div>
@@ -1066,6 +1054,10 @@
             </div>
         </section>
 
+        <section class="guests">
+            
+        </section>
+
     </main>
 
     <footer class="footer">
@@ -1073,7 +1065,6 @@
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery.formstyler.min.js"></script>
-    <!-- <script src="js/choices.min.js"></script> -->
     <script src="js/index.js"></script>
 </body>
 

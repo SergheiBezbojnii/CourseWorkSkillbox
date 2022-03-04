@@ -1,1 +1,1 @@
-# Этот репозиторий создан для дипломной работы по базовому курсу вёрстки Skillbox.
+https://www.figma.com/file/uSeXndmGD8R4F8kSZxZo40/Landing_4-(W-Wave-Radio)?node-id=0%3A1 - ссылка на макет
