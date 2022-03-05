@@ -154,7 +154,7 @@
 
     <main class="main">
 
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container hero__container flex">
                 <div class="hero__content flex">
                     <h1 class="hero__title section-reset">Радио <i class="hero__italic">W-Wawe</i></h1>
@@ -174,7 +174,7 @@
             </div>
         </section>
 
-        <section class="podcasts">
+        <section class="podcasts" id="podcasts">
             <div class="container">
                 <h2 class="podcasts__title title-reset">Подкасты</h2>
                 <ul class="podcasts__list list-reset flex">
@@ -775,7 +775,7 @@
             </div>
         </section>
 
-        <section class="broadcasts">
+        <section class="broadcasts" id="broadcasts">
             <div class="container broadcasts__container flex">
                 <div class="broadcasts__left-content flex">
                     <h2 class="broadcasts__title title-reset">Передачи</h2>
@@ -1066,7 +1066,7 @@
             </div>
         </section>
 
-        <section class="catalog" id="catalog">
+        <section class="guests" id="guests">
             <div class="container">
                 <h2 class="guests__title title-reset">Гости</h2>
                 <h3 class="guests__subtitle section-reset">У нас бывают:</h3>
@@ -1074,206 +1074,41 @@
                     учёные
                     и&nbsp;люди науки, историки, филологи и&nbsp;много других интересных гостей!
                 </p>
-                <div class="catalog__content flex">
-                    <div id="autorSpace" class="catalog__container_left">
-                        <article class="autor autor_active">
-                            <img class="autor__foto" src="img/guest-1920.jpg" alt="Доменико Гирландайо">
-
-                            <h3 class="autor__name">
-                                Доменико Гирландайо
-                            </h3>
-
-                            <span class="autor__years-of-live">
-                                2&nbsp;июня 1448&nbsp;&mdash; 11&nbsp;января 1494.
-                            </span>
-
-                            <p class="autor__descr">
-                                Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной
-                                династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо. Глава художественной
-                                мастерской, где юный Микеланджело в&nbsp;течение года овладевал профессиональными
-                                навыками. Автор фресковых циклов, в&nbsp;которых выпукло, со&nbsp;всевозможными
-                                подробностями показана домашняя жизнь библейских персонажей (в&nbsp;их&nbsp;роли
-                                выступают знатные граждане Флоренции в&nbsp;костюмах того времени).
-                            </p>
-                        </article>
-
-                        <article class="autor">
-                            <img class="autor__foto" src="img/guest-1920.jpg" alt="Брамантино">
-
-                            <h3 class="autor__name">
-                                Брамантино
-                            </h3>
-
-                            <span class="autor__years-of-live">
-                                1465 — 1530
-                            </span>
-
-                            <p class="autor__descr">
-                                Итальянский художник и&nbsp;архитектор, настоящее имя Суарди. Как живописец Брамантино
-                                сформировался под влиянием своего учителя и&nbsp;наставника Бернардино Бутиноне. Сжатый
-                                миниатюрный стиль художника, отличительными особенностями которого являются чётко
-                                очерченные фигуры, скалистые ландшафты и&nbsp;неестественная экспрессия персонажей,
-                                напоминает стиль живописцев Падуи и&nbsp;Феррары.
-
-                                Впоследствии Бартоломео Брамантино многому научился у&nbsp;знаменитого Браманте,
-                                от&nbsp;которого перенял любовь к&nbsp;монументальным формам и&nbsp;драматизму.
-                                В&nbsp;зрелый период творчества художник в&nbsp;своих работах придерживался строгой
-                                композиционной уравновешенности. Эта сдержанность в&nbsp;композиции особенно заметна
-                                в&nbsp;гобеленах для созданного Брамантино мавзолея Тривульцио.
-                            </p>
-                        </article>
-
-                        <article class="autor">
-                            <img class="autor__foto" src="img/guest-1920.jpg" alt="Пинтуриккьо">
-
-                            <h3 class="autor__name">
-                                Пинтуриккьо
-                            </h3>
-
-                            <span class="autor__years-of-live">
-                                1454 - 11 декабря 1513
-                            </span>
-
-                            <p class="autor__descr">
-                                Итальянский художник, представитель умбрийской школы. Его собственное имя&nbsp;&mdash;
-                                Бернардино ди&nbsp;Бетто (Бенедетто) ди&nbsp;Бьяджо (Bernardino di&nbsp;Betto
-                                di&nbsp;Biagio), имя Пинтуриккьо происходит от&nbsp;итальянского слова
-                                &laquo;живописец&raquo;. Он&nbsp;учился, вероятно, у&nbsp;Фьоренцо ди&nbsp;Лоренцо.
-                                Пинтуриккьо более всего известен как создатель фресок; он&nbsp;работал в&nbsp;Сиене,
-                                Перудже и&nbsp;Риме. Его фрески выполнены в&nbsp;яркой и&nbsp;нарядной колористической
-                                гамме. В&nbsp;Риме вместе с&nbsp;Перуджино он&nbsp;работал над украшением стен
-                                Сикстинской капеллы в&nbsp;Ватикане и&nbsp;испытал сильное влияние этого мастера.
-                            </p>
-                        </article>
-
-                        <article class="autor">
-                            <img class="autor__foto" src="img/guest-1920.jpg" alt="Беноццо Гоццоли">
-
-                            <h3 class="autor__name">
-                                Беноццо Гоццоли
-                            </h3>
-
-                            <span class="autor__years-of-live">
-                                1420 - 4 октября 1497
-                            </span>
-
-                            <p class="autor__descr">
-                                Беноццо Гоццоли родился в&nbsp;1420 году во&nbsp;Флоренции, в&nbsp;семье портного.
-                                Настоящее имя художника&nbsp;&mdash; Беноццо ди&nbsp;Лезе ди&nbsp;Сандро (фамилия
-                                Гоццоли впервые появляется лишь во&nbsp;втором издании &laquo;Жизнеописаний&raquo;
-                                Вазари). Период становления Гоццоли как художника пришёлся на&nbsp;годы, в&nbsp;которые
-                                флорентийское искусство переживало настоящий расцвет.
-                                В&nbsp;1430&ndash;1440&nbsp;гг.&nbsp;во&nbsp;Флоренции работали фра Анджелико, Филиппо
-                                Липпи, Паоло Учелло, Доменико Венециано, Пьеро делла Франческа.
-                            </p>
-                        </article>
-
-                        <article class="autor">
-                            <img class="autor__foto" src="img/guest-1920.jpg" alt="Андреа Верроккьо">
-
-                            <h3 class="autor__name">
-                                Андреа Верроккьо
-                            </h3>
-
-                            <span class="autor__years-of-live">
-                                1435 - 10 октября 1488
-                            </span>
-
-                            <p class="autor__descr">
-                                Наряду со&nbsp;скульптурой, Верроккьо развивался и&nbsp;в&nbsp;живописи. Как
-                                и&nbsp;многие его современники, Андреа формировался как мастер под влиянием двух
-                                изобразительных традиций. Его живописные произведения сочетают новаторские решения эпохи
-                                Возрождения, такие как треугольная композиция, использование линейной перспективы,
-                                формирование световоздушной среды, богатство и&nbsp;глубина колорита, с&nbsp;еще
-                                не&nbsp;преодоленной плоскостностью изображаемых фигур, свойственной готической
-                                традиции.
-                            </p>
-                        </article>
-
-                        <article class="autor autor_none">
-                            <img class="autor__foto" src="img/guest-1920.jpg" alt="картинка">
-
-                            <h3 class="autor__name">
-                                Что мы о нём знаем?
-                            </h3>
-
-                            <p class="autor__descr">
-                                Пока ничего... Зато мы&nbsp;точно знаем, что в&nbsp;галерее есть на&nbsp;что посмотреть!
-                            </p>
-
-                            <a class="autor__link" href="#">
-                                В галерею
-                            </a>
-                        </article>
-                    </div>
-
-                    <div class="catalog__container_right">
+                <div class="guests__content flex">
+                    <div class="guests__container-left">
                         <div class="accordion">
                             <ul class="accordion__list list-reset">
                                 <li class="accordion__item flex" tabindex="0">
                                     <div class="accordion__row">
                                         <span class="accordion__title">
-                                            C 1400 по 1499 гг.
+                                            Блогеры
                                         </span>
-
-                                        <button class="accordion__btn" tabindex="-1">
-                                            <svg width="42" height="42" viewbox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="21" cy="21" r="20" stroke="#A1A6B4" stroke-width="2"/>
-                                                <path d="M13 24L21 16L29 24" stroke="#A1A6B4" stroke-width="2" stroke-linecap="square"/>
-                                                </svg>
+                                        <button class="accordion__btn flex" tabindex="-1">
+                                            <picture>
+                                                <source srcset="img/guests-arrow-320.svg" type="image/png" media="(max-width: 350px)">
+                                                <img src="img/accordion-arrow.svg" alt="">
+                                            </picture>
                                         </button>
                                     </div>
                                     <div class="accordion__row-value">
                                         <div class="accordion__value flex">
                                             <ul class="accordion__value-list list-reset">
-                                                <li class="accordion__value-item"><a class="accordion__link">Бенедетто
-                                                        ди Биндо</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Бергоньоне,
-                                                        Амброджо</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Биссоло,
-                                                        Франческо</a></li>
-                                                <li class="accordion__value-item"><a
-                                                        class="accordion__link">Больтраффио, Джованни</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Бонсиньори,
-                                                        Франческо</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Боттичини,
-                                                        Рафаэлло</a></li>
-                                                <li class="accordion__value-item"><a
-                                                        class="accordion__link">Брамантино</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Бреа,
-                                                        Людовико</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Бьяджо
-                                                        д’Антонио Туччи</a></li>
-                                                <li class="accordion__value-item"><a
-                                                        class="accordion__link">Веккьетта</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Андреа
-                                                        Верроккьо</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Доменико
-                                                        Гирландайо</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Беноццо
-                                                        Гоццоли</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Граначчи,
-                                                        Франческо</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Грегорио ди
-                                                        Чекко</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Джованни да
-                                                        Удине</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Джованни ди
-                                                        Паоло</a></li>
-                                                <li class="accordion__value-item"><a
-                                                        class="accordion__link">Джорджоне</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Парентино,
-                                                        Бернардо</a></li>
-                                                <li class="accordion__value-item"><a
-                                                        class="accordion__link">Пезеллино</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Пьетро
-                                                        Перуджино</a></li>
-                                                <li class="accordion__value-item"><a class="accordion__link">Перуцци,
-                                                        Бальдассаре</a></li>
-                                                <li class="accordion__value-item"><a
-                                                        class="accordion__link">Пизанелло</a></li>
-                                                <li class="accordion__value-item"><a
-                                                        class="accordion__link">Пинтуриккьо</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Сергей Денисов</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Матвей Мечников</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Константин Прусино</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Иван Калитников</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Денис Тельман</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Евгений Войновский</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Ольга Мартынова</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Дмитрий Михалок</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Пётр Пиотровский</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Олег Свиридовский</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Владислав Кауперс</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Михаил Пожитников</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Георгий Полуян</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Денис Тельман</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Юрий Горин</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Максим Сергеев</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1281,162 +1116,253 @@
                                 <li class="accordion__item flex" tabindex="0">
                                     <div class="accordion__row">
                                         <span class="accordion__title">
-                                            C 1500 по 1599 гг.
+                                            Арт-критики
                                         </span>
-
                                         <button class="accordion__btn" tabindex="-1">
-                                            <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334" stroke="black" />
-                                            </svg>
+                                            <picture>
+                                                <source srcset="img/guests-arrow-320.svg" type="image/png" media="(max-width: 350px)">
+                                                <img src="img/accordion-arrow.svg" alt="">
+                                            </picture>
                                         </button>
                                     </div>
                                     <div class="accordion__row-value">
                                         <div class="accordion__value flex">
-                                            <div class="accrodion__img-plug"></div>
-
-                                            <div class="accordion__descr-plug flex">
-                                                <span class="accordion__text-plug_bold">Здесь пока пусто</span>
-                                                <span class="accordion__text-plug_norm">А в галерее вы всегда можете
-                                                    найти что-то интересное для себя</span>
-                                                <a href="#gallery" class="accordion__link-plug">В галерею</a>
-                                            </div>
+                                            <ul class="accordion__value-list list-reset">
+                                                <li class="accordion__value-item"><a class="accordion__link">Юлия Цветкова</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Марина Лошак</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Роман Абрамович</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Тереза Мавика</a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="accordion__item flex" tabindex="0">
                                     <div class="accordion__row">
                                         <span class="accordion__title">
-                                            C 1600 по 1699 гг.
+                                            Художники
                                         </span>
-
                                         <button class="accordion__btn" tabindex="-1">
-                                            <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334" stroke="black" />
-                                            </svg>
+                                            <picture>
+                                                <source srcset="img/guests-arrow-320.svg" type="image/png" media="(max-width: 350px)">
+                                                <img src="img/accordion-arrow.svg" alt="">
+                                            </picture>
                                         </button>
                                     </div>
                                     <div class="accordion__row-value">
                                         <div class="accordion__value flex">
-                                            <div class="accrodion__img-plug"></div>
-
-                                            <div class="accordion__descr-plug flex">
-                                                <span class="accordion__text-plug_bold">Здесь пока пусто</span>
-                                                <span class="accordion__text-plug_norm">А в галерее вы всегда можете
-                                                    найти что-то интересное для себя</span>
-                                                <a href="#gallery" class="accordion__link-plug">В галерею</a>
-                                            </div>
+                                            <ul class="accordion__value-list list-reset">
+                                                <li class="accordion__value-item"><a class="accordion__link">Сергей Денисов</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Матвей Мечников</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Константин Прусино</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Иван Калитников</a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="accordion__item flex" tabindex="0">
                                     <div class="accordion__row">
                                         <span class="accordion__title">
-                                            C 1700 по 1799 гг.
+                                            Люди науки
                                         </span>
-
                                         <button class="accordion__btn" tabindex="-1">
-                                            <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334" stroke="black" />
-                                            </svg>
+                                            <picture>
+                                                <source srcset="img/guests-arrow-320.svg" type="image/png" media="(max-width: 350px)">
+                                                <img src="img/accordion-arrow.svg" alt="">
+                                            </picture>
                                         </button>
                                     </div>
                                     <div class="accordion__row-value">
                                         <div class="accordion__value flex">
-                                            <div class="accrodion__img-plug"></div>
-
-                                            <div class="accordion__descr-plug flex">
-                                                <span class="accordion__text-plug_bold">Здесь пока пусто</span>
-                                                <span class="accordion__text-plug_norm">А в галерее вы всегда можете
-                                                    найти что-то интересное для себя</span>
-                                                <a href="#gallery" class="accordion__link-plug">В галерею</a>
-                                            </div>
+                                            <ul class="accordion__value-list list-reset">
+                                                <li class="accordion__value-item"><a class="accordion__link">Сергей Денисов</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Матвей Мечников</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Константин Прусино</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Иван Калитников</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion__item accordion__item-delete flex" tabindex="0">
+                                    <div class="accordion__row">
+                                        <span class="accordion__title">
+                                            Историки
+                                        </span>
+                                        <button class="accordion__btn" tabindex="-1">
+                                            <picture>
+                                                <source srcset="img/guests-arrow-320.svg" type="image/png" media="(max-width: 350px)">
+                                                <img src="img/accordion-arrow.svg" alt="">
+                                            </picture>
+                                        </button>
+                                    </div>
+                                    <div class="accordion__row-value">
+                                        <div class="accordion__value flex">
+                                            <ul class="accordion__value-list list-reset">
+                                                <li class="accordion__value-item"><a class="accordion__link">Сергей Денисов</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Матвей Мечников</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Константин Прусино</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Иван Калитников</a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="accordion__item flex" tabindex="0">
                                     <div class="accordion__row">
                                         <span class="accordion__title">
-                                            C 1800 по 1899 гг.
+                                            Филологи
                                         </span>
-
                                         <button class="accordion__btn" tabindex="-1">
-                                            <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334" stroke="black" />
-                                            </svg>
+                                            <picture>
+                                                <source srcset="img/guests-arrow-320.svg" type="image/png" media="(max-width: 350px)">
+                                                <img src="img/accordion-arrow.svg" alt="">
+                                            </picture>
                                         </button>
                                     </div>
                                     <div class="accordion__row-value">
                                         <div class="accordion__value flex">
-                                            <div class="accrodion__img-plug"></div>
-
-                                            <div class="accordion__descr-plug flex">
-                                                <span class="accordion__text-plug_bold">Здесь пока пусто</span>
-                                                <span class="accordion__text-plug_norm">А в галерее вы всегда можете
-                                                    найти что-то интересное для себя</span>
-                                                <a href="#gallery" class="accordion__link-plug">В галерею</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="accordion__item flex" tabindex="0">
-                                    <div class="accordion__row">
-                                        <span class="accordion__title">
-                                            C 1900 по 1999 гг.
-                                        </span>
-
-                                        <button class="accordion__btn" tabindex="-1">
-                                            <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334" stroke="black" />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                    <div class="accordion__row-value">
-                                        <div class="accordion__value flex">
-                                            <div class="accrodion__img-plug"></div>
-
-                                            <div class="accordion__descr-plug flex">
-                                                <span class="accordion__text-plug_bold">Здесь пока пусто</span>
-                                                <span class="accordion__text-plug_norm">А в галерее вы всегда можете
-                                                    найти что-то интересное для себя</span>
-                                                <a href="#gallery" class="accordion__link-plug">В галерею</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="accordion__item flex" tabindex="0">
-                                    <div class="accordion__row">
-                                        <span class="accordion__title">
-                                            C 2000 г.
-                                        </span>
-
-                                        <button class="accordion__btn" tabindex="-1">
-                                            <svg width="18" height="11" viewBox="0 0 18 11" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M17.3333 1.33334L9 9.66667L0.666664 1.33334" stroke="black" />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                    <div class="accordion__row-value">
-                                        <div class="accordion__value flex">
-                                            <div class="accrodion__img-plug"></div>
-
-                                            <div class="accordion__descr-plug flex">
-                                                <span class="accordion__text-plug_bold">Здесь пока пусто</span>
-                                                <span class="accordion__text-plug_norm">А в галерее вы всегда можете
-                                                    найти что-то интересное для себя</span>
-                                                <a href="#gallery" class="accordion__link-plug">В галерею</a>
-                                            </div>
+                                            <ul class="accordion__value-list list-reset">
+                                                <li class="accordion__value-item"><a class="accordion__link">Сергей Денисов</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Матвей Мечников</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Константин Прусино</a></li>
+                                                <li class="accordion__value-item"><a class="accordion__link">Иван Калитников</a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
+                    <div class="guests__container-right" id="autorSpace">
+                        <article class="autor autor_active">
+                            <img class="autor__foto" src="img/accordion-zaglushka.jpg" alt="Выбери гостя ?">
+                            <h3 class="autor__name">.</h3>
+                            <p class="autor__descr"></p>
+                        </article>
+
+                        <article class="autor autor_none">
+                            <img class="autor__foto" src="img/accordion-zaglushka.jpg" alt="картинка">
+                            <h3 class="autor__name">Тут будет информация о госте</h3>
+                            <p class="autor__descr"> А тут описание. Но, пока ничего... Зато мы&nbsp;точно знаем, что в&nbsp;подкастах есть на&nbsp;что посмотреть!</p>
+                        </article>
+
+                        <article class="autor">
+                            <picture>
+                                <source srcset="img/guest-320.jpg" type="image/png" media="(max-width: 350px)">
+                                <source srcset="img/guest-768.jpg" type="image/png" media="(max-width: 768px)">
+                                <source srcset="img/guest-1024.jpg" type="image/png" media="(max-width: 1024px)">
+                                <img class="autor__foto" src="img/guest-1920.jpg" alt="Ольга Мартынова">
+                            </picture>
+                            <ul class="autor__list list-reset flex">
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <picture>
+                                            <source srcset="img/guests-icon-320-insta.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/instagram-icon.svg" alt="#">
+                                        </picture>                                         
+                                    </a>
+                                </li>
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <picture>
+                                            <source srcset="img/guests-icon-320-fb.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/fb-icon.svg" alt="#">
+                                        </picture>   
+                                    </a>
+                                </li>
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <picture>
+                                            <source srcset="img/guests-icon-320-tw.svg" type="image/png" media="(max-width: 350px)">
+                                            <img src="img/twitter-icon.svg" alt="#">
+                                        </picture>                                             
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="autor__name section-reset">
+                                Ольга Мартынова
+                            </h3>
+                            <p class="autor__descr section-reset">
+                                Российский искусствовед, арт-критик, куратор выставок, дизайнер, кандидат культурологии. Арт-критик газеты «Коммерсантъ». Ведёт активную блогерскую деятельность как куратор музея «Гараж», коим является с 2016 года.
+                            </p>
+                            <a class="autor__link flex" href="#">
+                                Эфиры с гостем
+                            </a>
+                        </article>
+
+                        <article class="autor">
+                            <img class="autor__foto" src="img/dizel.jpeg" alt="Сергей Денисов">
+                            <ul class="autor__list list-reset flex">
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z" fill="#A1A6B4"/>
+                                            </svg>                                            
+                                    </a>
+                                </li>
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.78 22V14.26H18.3722L18.76 11.2511H15.78V9.33111C15.78 8.46 16.0222 7.86556 17.2711 7.86556H18.8644V5.17444C18.0931 5.09261 17.3179 5.05292 16.5422 5.05556C14.2456 5.05556 12.6733 6.45778 12.6733 9.03333V11.2511H10.0756V14.26H12.6733V22H3.11111C2.81643 22 2.53381 21.8829 2.32544 21.6746C2.11706 21.4662 2 21.1836 2 20.8889V3.11111C2 2.81643 2.11706 2.53381 2.32544 2.32544C2.53381 2.11706 2.81643 2 3.11111 2H20.8889C21.1836 2 21.4662 2.11706 21.6746 2.32544C21.8829 2.53381 22 2.81643 22 3.11111V20.8889C22 21.1836 21.8829 21.4662 21.6746 21.6746C21.4662 21.8829 21.1836 22 20.8889 22H15.78Z" fill="#A1A6B4"/>
+                                            </svg>
+                                    </a>
+                                </li>
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22.162 5.65593C21.3986 5.99362 20.589 6.2154 19.76 6.31393C20.6337 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4804 3.89489 16.5709 3.74451C15.6615 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6067 7.93171 11.818 8.82893C10.1551 8.74558 8.52832 8.31345 7.04328 7.56059C5.55823 6.80773 4.24812 5.75097 3.19799 4.45893C2.82628 5.09738 2.63095 5.82315 2.63199 6.56193C2.63199 8.01193 3.36999 9.29293 4.49199 10.0429C3.828 10.022 3.17862 9.84271 2.59799 9.51993V9.57193C2.59819 10.5376 2.93236 11.4735 3.54384 12.221C4.15532 12.9684 5.00647 13.4814 5.95299 13.6729C5.33661 13.84 4.6903 13.8646 4.06299 13.7449C4.32986 14.5762 4.85 15.3031 5.55058 15.824C6.25117 16.3449 7.09712 16.6337 7.96999 16.6499C7.10247 17.3313 6.10917 17.8349 5.04687 18.1321C3.98458 18.4293 2.87412 18.5142 1.77899 18.3819C3.69069 19.6114 5.91609 20.264 8.18899 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.23009 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z" fill="#A1A6B4"/>
+                                            </svg>                                            
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="autor__name section-reset">
+                                Сергей Денисов
+                            </h3>
+                            <p class="autor__descr section-reset">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ea velit ducimus placeat voluptas iure quia mollitia nesciunt modi, aliquam, consectetur eaque dignissimos quasi excepturi. Fugiat odio repellendus adipisci numquam.
+                            </p>
+                            <a class="autor__link flex" href="#">
+                                Эфиры с гостем
+                            </a>
+                        </article>
+
+                        <article class="autor">
+                            <img class="autor__foto" src="img/stalone.jpg" alt="Матвей Мечников">
+                            <ul class="autor__list list-reset flex">
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z" fill="#A1A6B4"/>
+                                            </svg>                                            
+                                    </a>
+                                </li>
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.78 22V14.26H18.3722L18.76 11.2511H15.78V9.33111C15.78 8.46 16.0222 7.86556 17.2711 7.86556H18.8644V5.17444C18.0931 5.09261 17.3179 5.05292 16.5422 5.05556C14.2456 5.05556 12.6733 6.45778 12.6733 9.03333V11.2511H10.0756V14.26H12.6733V22H3.11111C2.81643 22 2.53381 21.8829 2.32544 21.6746C2.11706 21.4662 2 21.1836 2 20.8889V3.11111C2 2.81643 2.11706 2.53381 2.32544 2.32544C2.53381 2.11706 2.81643 2 3.11111 2H20.8889C21.1836 2 21.4662 2.11706 21.6746 2.32544C21.8829 2.53381 22 2.81643 22 3.11111V20.8889C22 21.1836 21.8829 21.4662 21.6746 21.6746C21.4662 21.8829 21.1836 22 20.8889 22H15.78Z" fill="#A1A6B4"/>
+                                            </svg>
+                                    </a>
+                                </li>
+                                <li class="autor__list-item flex">
+                                    <a href="#" class="autor__link-item-link flex">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22.162 5.65593C21.3986 5.99362 20.589 6.2154 19.76 6.31393C20.6337 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4804 3.89489 16.5709 3.74451C15.6615 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6067 7.93171 11.818 8.82893C10.1551 8.74558 8.52832 8.31345 7.04328 7.56059C5.55823 6.80773 4.24812 5.75097 3.19799 4.45893C2.82628 5.09738 2.63095 5.82315 2.63199 6.56193C2.63199 8.01193 3.36999 9.29293 4.49199 10.0429C3.828 10.022 3.17862 9.84271 2.59799 9.51993V9.57193C2.59819 10.5376 2.93236 11.4735 3.54384 12.221C4.15532 12.9684 5.00647 13.4814 5.95299 13.6729C5.33661 13.84 4.6903 13.8646 4.06299 13.7449C4.32986 14.5762 4.85 15.3031 5.55058 15.824C6.25117 16.3449 7.09712 16.6337 7.96999 16.6499C7.10247 17.3313 6.10917 17.8349 5.04687 18.1321C3.98458 18.4293 2.87412 18.5142 1.77899 18.3819C3.69069 19.6114 5.91609 20.264 8.18899 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.23009 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z" fill="#A1A6B4"/>
+                                            </svg>                                            
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="autor__name section-reset">
+                                Матвей Мечников
+                            </h3>
+                            <p class="autor__descr section-reset">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ullam accusantium atque debitis hic cupiditate sed temporibus est sint placeat inventore qui sit molestias, dicta, ex quisquam maxime quis quia?
+                            </p>
+                            <a class="autor__link flex" href="#">
+                                Эфиры с гостем
+                            </a>
+                        </article>
+                    </div>
+
+                
                 </div>
             </div>
         </section>

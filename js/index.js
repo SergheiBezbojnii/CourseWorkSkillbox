@@ -22,7 +22,7 @@ menuClose.addEventListener('click', () => {
   });
 })(jQuery);
 
-// catalog
+// guests
 
 function openCatalogEl() {
   document.querySelectorAll('.accordion__value-item').forEach(el => {
@@ -99,4 +99,5 @@ function accordion() {
   })
 }
 
+accordion()
 
