@@ -996,14 +996,14 @@ body {
   flex-direction: column;
 }
 
-label {
+.form-container__label {
   font-size: 20px;
   line-height: 20px;
   font-weight: 400;
   color: var(--color-black);
 }
 
-input {
+.form-btn {
   position: relative;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1019,7 +1019,7 @@ input {
   cursor: pointer;
 }
 
-input:checked {
+.form-btn:checked {
   border: 7px solid var(--color-primary);
 }
 
@@ -1090,7 +1090,7 @@ input:checked {
 .be-with-us {
   background: var(--color-light-black);
   padding-top: 95px;
-  padding-bottom: 134px;
+  padding-bottom: 132px;
 }
 
 .be-with-us__container {
@@ -1163,3 +1163,93 @@ input:checked {
 .be-with-us-span {
   color: var(--color-promo-color);
 }
+
+/* about-us */
+
+.about-us {
+  background: var(--color-black);
+  color: var(--color-white);
+  padding-top: 94px;
+  padding-bottom: 95px;
+}
+
+.about-us__container {
+  flex-direction: column;
+}
+
+.abouts-us__content {
+  flex-direction: column;
+}
+
+.about-us__list {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-us__list-item-content {
+  flex-direction: column;
+}
+
+.about-us__list-item {
+  width: 23%;
+}
+
+.about-us__title {
+  padding-top: 2px;
+  margin-bottom: 12px;
+}
+
+.about-us__subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--color-text-gray);
+}
+
+.about-us__descr {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--color-text-gray);
+}
+
+.abouts-us__content {
+  width: 58%;
+  margin-right: 20px;
+}
+
+.about-us__bg-dawn {
+  padding-left: 29px;
+  padding-top: 19px;
+}
+
+.about-us__container-top {
+  margin-bottom: 29px;
+}
+
+.about-us__list-item-name {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-white);
+  margin-bottom: 8px;
+}
+
+.about-us__list-item-descr {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--color-text-gray);
+}
+
+.about-us__list-item-img {
+  margin-bottom: 30px;
+}
+
+.about-us__form {
+  min-width: 920px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+

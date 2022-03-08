@@ -101,3 +101,38 @@ function accordion() {
 
 accordion()
 
+
+// form
+
+new JustValidate('.about-us-form', {
+  rules: {
+    name: {
+      required: true,
+      minLength: 2,
+      maxLength: 10
+    },
+    text: {
+      required: true,
+      minLength: 2
+    },
+    mail: {
+      required: true,
+      email: true,
+    },
+  },
+  messages: {
+    name: {
+      required: 'Как вас зовут?',
+      minLength: 'Введите минимум 2 символа',
+      maxLength: 'Введите не более 10 символов'
+    },
+    text: {
+      required: 'Напишите что нибудь нам',
+      minLength: 'Ну хотя-бы что-то',
+    },
+    email: {
+      required: 'Укажите ваш e-mail',
+      email: 'Введите e-mail в правильном формате'
+    }
+  }
+});
