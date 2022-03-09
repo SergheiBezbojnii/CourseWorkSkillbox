@@ -1978,17 +1978,19 @@
                     </li>
                 </ul>
                 <div class="about-us__form flex">
-                    <form action="about-us-form" class="about-us-form">
-                        <input class="about-us__input-1" id="input-1" name="Имя" type="text" placeholder="Что скажете?"
+                    <form action="about-us-form" class="about-us-form flex">
+                        <input class="about-us__input about-us__input-1" id="input-1" name="Имя" type="text" placeholder="Что скажете?"
                             data-validate-field="text">
-                        <input class="about-us__input-2" id="input-2" name="Имя" type="text" placeholder="Имя"
+                        <input class="about-us__input about-us__input-2" id="input-2" name="Имя" type="text" placeholder="Имя"
                             data-validate-field="name">
-                        <input class="about-us__input-3 input-3" id="input-3" name="email" type="email" placeholder="Email*"
-                            data-validate-field="email">
-                        <button class="about-us__form-btn">Заказать</button>
-                        <label class="about-us__label flex">
-                            <input type="checkbox" class="about-us__checkbox">Согласен на обработку данных
-                        </label>
+                        <input class="about-us__input about-us__input-3 input-3" id="input-3" name="email" type="email"
+                            placeholder="E-mail" data-validate-field="email">
+                        <div class="about-us-form__checkbox flex">
+                            <button class="about-us__form-btn btn-reset">Отправить</button>
+                            <label class="about-us__label flex">
+                                <input type="checkbox" class="about-us__checkbox">Согласен на обработку персональных данных
+                            </label>
+                        </div>
                     </form>
                 </div>
             </div>
