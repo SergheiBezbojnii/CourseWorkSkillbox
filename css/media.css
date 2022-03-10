@@ -262,6 +262,11 @@
   padding-top: 30px;
 }
 
+.footer__content {
+  padding-top: 93px;
+}
+
+
 
 }
 
@@ -600,8 +605,26 @@
   width: 100%;
 }
 
+.footer__container {
+  flex-direction: column;
+  padding: 0 114px;
+}
 
+.social-media__list {
+  width: 207px;
+  align-self: center;
+}
 
+.footer__logo-img {
+  height: 20px;
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.footer__menu-list-item {
+  width: 33%;
+}
 
 }
 
@@ -695,6 +718,11 @@
 .about-us__bg {
   display: none;
 }
+
+
+
+
+
 
 }
 

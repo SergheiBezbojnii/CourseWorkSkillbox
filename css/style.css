@@ -1377,3 +1377,67 @@ body {
   left: 35px;
 }
 
+.footer {
+  background: var(--color-light-black);
+}
+
+.footer__content {
+  padding-top: 92px;
+  padding-bottom: 94px;
+  /* background-image: url("/img/border.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center; */
+}
+
+.footer__content-left {
+  flex-direction: column;
+}
+
+.footer__content-right {
+  height: 88px;
+}
+
+.social-media__list {
+  justify-content: space-between;
+}
+
+.footer__copy {
+  position: relative;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--color-text-gray);
+  text-align: center;
+}
+
+.footer__logo-img {
+  margin-bottom: 20px;
+}
+
+.footer__container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer__menu-list {
+  width: 445px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer__menu-list-item:not(:nth-child(3n)) {
+  margin-bottom: 20px;
+}
+
+.footer__menu-list-item {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.footer__menu-list-item:not(:last-child) {
+  margin-right: 109px;
+}
+
