@@ -1252,6 +1252,18 @@ body {
   width: 920px;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-us__form-container-1 {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about-us__form-container-2 ,
+.about-us__form-container-3 {
+  width: 48.4%;
 }
 
 .about-us__input {
@@ -1270,6 +1282,7 @@ body {
   min-height: 150px;
   border-radius: 30px;
   margin-bottom: 30px;
+  padding-top: 30px;
 }
 
 .about-us__input-2 {
@@ -1278,7 +1291,7 @@ body {
 
 .about-us__input-2,
 .about-us__input-3 {
-  width: 48.4%;
+  width: 100%;
   min-height: 70px;
   border-radius: 40px;
   margin-bottom: 30px;
@@ -1307,14 +1320,60 @@ body {
 }
 
 .about-us__label {
+  position: relative;
   font-size: 12px;
   line-height: 12px;
   font-weight: 500;
   color: var(--color-white);
   align-items: flex-end;
+  padding-left: 22px;
+  padding-top: 3px;
 }
 
-.about-us__label text {
-  padding-top: 3px;
+.about-us__checkbox {
+  display: none;
+}
+
+.about-us__checkbox + span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+
+.about-us__checkbox + span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  background-image: url(../img/galochka.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about-us__checkbox:checked + span::before {
+  opacity: 1;
+}
+
+.about-us__form-container-1,
+.about-us__form-container-2,
+.about-us__form-container-3 {
+  position: relative;
+}
+
+.js-validate-error-label {
+  position: absolute;
+  top: 5px;
+  left: 35px;
 }
 

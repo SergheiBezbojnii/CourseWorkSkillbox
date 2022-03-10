@@ -29,7 +29,17 @@
   padding-bottom: 94px;
 }
 
+.about-us__bg-spiral {
+  display: none;
+}
+.abouts-us__content {
+  margin-right: auto;
+}
 
+.about-us__list-item {
+  width: 47%;
+  margin-bottom: 30px;
+}
 
 
 }
@@ -207,6 +217,49 @@
   padding-top: 0;
   padding-bottom: 42px;
   padding-left: 5px;
+}
+
+.abouts-us__content {
+  width: 70%;
+}
+
+.about-us__bg-dawn {
+  padding-top: 49px;
+}
+
+.about-us__list-item {
+  width: 48.2%;
+}
+
+.about-us__container-top {
+  margin-bottom: 29px;
+}
+
+.about-us__list-item-name {
+  padding-top: 1px;
+  margin-bottom: 7px;
+}
+
+.about-us__list {
+  margin-bottom: 0;
+}
+
+.about-us__input {
+  padding-left: 31px;
+  padding-top: 3px;
+}
+
+.about-us__title {
+  padding-top: 1px;
+}
+
+.about-us__form-container-2, 
+.about-us__form-container-3 {
+  width: 48.2%;
+}
+
+.about-us__input-1 {
+  padding-top: 30px;
 }
 
 
@@ -495,6 +548,58 @@
   max-width: 533px;
 }
 
+.about-us__container {
+  padding: 0 114px;
+}
+
+.about-us__container-top {
+  flex-direction: column;
+}
+
+.abouts-us__content {
+  width: 100%;
+}
+
+.about-us__bg-spiral {
+  display: block;
+  height: 112px;
+  width: 399px;
+}
+
+.about-us__bg {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-us__bg-dawn {
+  padding: 0;
+}
+
+.abouts-us__content {
+  margin-bottom: 29px;
+}
+
+.about-us__list-item {
+  width: 47.2%;
+}
+
+.about-us__container-top {
+  margin-bottom: 30px;
+}
+
+.about-us__list-item-descr {
+  max-width: 280px;
+}
+
+.about-us-form {
+  flex-direction: column;
+}
+
+.about-us__form-container-2 , 
+.about-us__form-container-3 {
+  width: 100%;
+}
+
 
 
 
@@ -587,6 +692,9 @@
   margin-bottom: 20px;
 }
 
+.about-us__bg {
+  display: none;
+}
 
 }
 
@@ -744,6 +852,10 @@
 .playlists-content__descr {
   font-size: 9px;
   line-height: 9px;
+}
+
+.about-us__list-item {
+  width: 35%;
 }
 
 
@@ -1121,6 +1233,99 @@
   padding-bottom: 54px;
 }
 
+.about-us__list-item {
+  width: 43%;
+}
+
+.about-us__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.about-us {
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.about-us__subtitle {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.about-us__descr  {
+  font-size: 14px;
+  line-height: 22px;
+  min-width: 269px
+}
+
+.about-us__container-top {
+  margin-bottom: 0px;
+}
+
+.about-us__list-item {
+  width: 44%;
+}
+
+.about-us__list-item-name {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  max-width: 80px;
+}
+
+.about-us__list-item-descr {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.about-us__list-item-img {
+  margin-bottom: 12px;
+}
+
+.about-us__list-item {
+  margin-bottom: 30px;
+}
+
+.about-us__input-1 {
+  border-radius: 20px;
+}
+
+.about-us__input {
+  font-size: 16px;
+  line-height: 16px;
+  padding-left: 23px;
+  padding-top: 0px;
+}
+
+.about-us__input-2, 
+.about-us__input-3 {
+  min-height: 50px;
+}
+
+.about-us__form-btn {
+  width: 172px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+.about-us__checkbox + span {
+  width: 13px;
+  height: 13px;
+}
+
+.about-us__label {
+  font-size: 9px;
+  line-height: 9px;
+  padding-left: 21px;
+}
+
+.about-us__input-1 {
+  padding-top: 15px;
+}
 
 
 

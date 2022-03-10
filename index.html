@@ -1897,12 +1897,12 @@
                     </div>
                     <div class="about-us__bg flex">
                         <picture>
-                            <source srcset="img/aboutus-spiral-768.png" type="image/png" media="(max-width: 768px)">
+                            <source srcset="img/aboutus-spiral-768.png" type="image/png" media="(max-width: 1023px)">
                             <img src="img/aboutus-spiral-1920.png" class="about-us__bg-spiral" alt="">
                         </picture>
                         <picture>
-                            <source srcset="img/aboutus-spiral-768.png" type="image/png" media="(max-width: 768px)">
-                            <source srcset="img/aboutus-spiral-1024.png" type="image/png" media="(max-width: 1024px)">
+                            <source srcset="img/aboutus-dawn-768.png" type="image/png" media="(max-width: 1023px)">
+                            <source srcset="img/aboutus-dawn-1024.png" type="image/png" media="(max-width: 1024px)">
                             <img src="img/aboutus-dawn-1920.png" class="about-us__bg-dawn" alt="">
                         </picture>
                     </div>
@@ -1911,10 +1911,10 @@
                     <li class="about-us__list-item">
                         <div class="about-us__list-item-content fz-hack flex">
                             <picture>
-                                <source srcset="img/aboutus-1-320.jpg" type="image/png" media="(max-width: 500px)">
+                                <source srcset="img/aboutus-1-320.jpg" type="image/png" media="(max-width: 600px)">
                                 <source srcset="img/aboutsus-1-1920+768.jpg" type="image/png"
-                                    media="(max-width: 768px)">
-                                <source srcset="img/aboutsus-1-1024.jpg" type="image/png" media="(max-width: 120px)">
+                                    media="(max-width: 1023px)">
+                                <source srcset="img/aboutsus-1-1024.jpg" type="image/png" media="(max-width: 1320px)">
                                 <img src="img/aboutsus-1-1920+768.jpg" class="about-us__list-item-img" alt="">
                             </picture>
                             <h3 class="about-us__list-item-name section-reset">
@@ -1928,10 +1928,10 @@
                     <li class="about-us__list-item">
                         <div class="about-us__list-item-content fz-hack flex">
                             <picture>
-                                <source srcset="img/aboutus-2-320.jpg" type="image/png" media="(max-width: 500px)">
+                                <source srcset="img/aboutus-2-320.jpg" type="image/png" media="(max-width: 600px)">
                                 <source srcset="img/aboutsus-2-1920+768.jpg" type="image/png"
-                                    media="(max-width: 768px)">
-                                <source srcset="img/aboutsus-2-1024.jpg" type="image/png" media="(max-width: 120px)">
+                                    media="(max-width: 1023px)">
+                                <source srcset="img/aboutsus-2-1024.jpg" type="image/png" media="(max-width: 1320px)">
                                 <img src="img/aboutsus-2-1920+768.jpg" class="about-us__list-item-img" alt="">
                             </picture>
                             <h3 class="about-us__list-item-name section-reset">
@@ -1945,10 +1945,10 @@
                     <li class="about-us__list-item">
                         <div class="about-us__list-item-content fz-hack flex">
                             <picture>
-                                <source srcset="img/aboutus-3-320.jpg" type="image/png" media="(max-width: 500px)">
+                                <source srcset="img/aboutus-3-320.jpg" type="image/png" media="(max-width: 600px)">
                                 <source srcset="img/aboutsus-3-1920+768.jpg" type="image/png"
-                                    media="(max-width: 768px)">
-                                <source srcset="img/aboutsus-3-1024.jpg" type="image/png" media="(max-width: 120px)">
+                                    media="(max-width: 1023px)">
+                                <source srcset="img/aboutsus-3-1024.jpg" type="image/png" media="(max-width: 1320px)">
                                 <img src="img/aboutsus-3-1920+768.jpg" class="about-us__list-item-img" alt="">
                             </picture>
                             <h3 class="about-us__list-item-name section-reset">
@@ -1962,10 +1962,10 @@
                     <li class="about-us__list-item">
                         <div class="about-us__list-item-content fz-hack flex">
                             <picture>
-                                <source srcset="img/aboutus-4-320.jpg" type="image/png" media="(max-width: 500px)">
+                                <source srcset="img/aboutus-4-320.jpg" type="image/png" media="(max-width: 600px)">
                                 <source srcset="img/aboutsus-4-1920+768.jpg" type="image/png"
-                                    media="(max-width: 768px)">
-                                <source srcset="img/aboutsus-4-1024.jpg" type="image/png" media="(max-width: 120px)">
+                                    media="(max-width: 1023px)">
+                                <source srcset="img/aboutsus-4-1024.jpg" type="image/png" media="(max-width: 1320px)">
                                 <img src="img/aboutsus-4-1920+768.jpg" class="about-us__list-item-img" alt="">
                             </picture>
                             <h3 class="about-us__list-item-name section-reset">
@@ -1979,16 +1979,24 @@
                 </ul>
                 <div class="about-us__form flex">
                     <form action="about-us-form" class="about-us-form flex">
-                        <input class="about-us__input about-us__input-1" id="input-1" name="Имя" type="text" placeholder="Что скажете?"
-                            data-validate-field="text">
-                        <input class="about-us__input about-us__input-2" id="input-2" name="Имя" type="text" placeholder="Имя"
-                            data-validate-field="name">
-                        <input class="about-us__input about-us__input-3 input-3" id="input-3" name="email" type="email"
-                            placeholder="E-mail" data-validate-field="email">
+                        <div class="about-us__form-container-1 flex">
+                            <textarea rows="5" cols="45" class="about-us__input about-us__input-1" id="input-1" name="Имя" type="textarea"
+                            placeholder="Что скажете?" data-validate-field="text"></textarea>
+                        </div>
+                        <div class="about-us__form-container-2 flex">
+                            <input class="about-us__input about-us__input-2" id="input-2" name="Имя" type="text"
+                                placeholder="Имя" data-validate-field="name">
+                        </div>
+                        <div class="about-us__form-container-3 flex">
+                            <input class="about-us__input about-us__input-3 input-3" id="input-3" name="email"
+                                type="email" placeholder="E-mail" data-validate-field="email">
+                        </div>
                         <div class="about-us-form__checkbox flex">
                             <button class="about-us__form-btn btn-reset">Отправить</button>
-                            <label class="about-us__label flex">
-                                <input type="checkbox" class="about-us__checkbox">Согласен на обработку персональных данных
+                            <label for="check" class="about-us__label flex">
+                                <input class="about-us__checkbox" type="checkbox" id="check" name="check">Согласен на
+                                обработку персональных данных
+                                <span></span>
                             </label>
                         </div>
                     </form>
