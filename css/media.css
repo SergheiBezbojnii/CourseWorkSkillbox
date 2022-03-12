@@ -32,7 +32,7 @@
 .about-us__bg-spiral {
   display: none;
 }
-.abouts-us__content {
+.about-us__content {
   margin-right: auto;
 }
 
@@ -219,7 +219,7 @@
   padding-left: 5px;
 }
 
-.abouts-us__content {
+.about-us__content {
   width: 70%;
 }
 
@@ -262,10 +262,9 @@
   padding-top: 30px;
 }
 
-.footer__content {
-  padding-top: 93px;
+.footer__menu-list {
+  width: 54%;
 }
-
 
 
 }
@@ -561,8 +560,9 @@
   flex-direction: column;
 }
 
-.abouts-us__content {
+.about-us__content {
   width: 100%;
+  margin-bottom: 29px;
 }
 
 .about-us__bg-spiral {
@@ -578,10 +578,6 @@
 
 .about-us__bg-dawn {
   padding: 0;
-}
-
-.abouts-us__content {
-  margin-bottom: 29px;
 }
 
 .about-us__list-item {
@@ -606,25 +602,43 @@
 }
 
 .footer__container {
-  flex-direction: column;
   padding: 0 114px;
+  flex-direction: column;
 }
 
-.social-media__list {
-  width: 207px;
-  align-self: center;
+.footer__menu-list {
+  width: 100%;
+}
+
+.footer__content-left {
+  align-items: center;
+  margin-bottom: 80px;
+  padding-right: 9px;
 }
 
 .footer__logo-img {
-  height: 20px;
   width: 160px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  height: 20px;
 }
 
-.footer__menu-list-item {
-  width: 33%;
+.footer__social-media-list {
+  max-height: 36px;
 }
+
+.footer__social-link-item {
+  width: 36px;
+  height: 36px;
+}
+
+.footer__social-link-item:not(:last-child) {
+  margin-right: 21px;
+}
+
+.footer__menu-list-item:not(:nth-child(3n)) {
+  margin-bottom: 30px;
+}
+
+
 
 }
 
@@ -885,6 +899,43 @@
 .about-us__list-item {
   width: 35%;
 }
+
+.footer__content {
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.footer__menu-list {
+  display: none;
+}
+
+.footer__mobile-list {
+  display: block;
+  background: var(--color-black);
+}
+
+.footer__menu-list-mobile {
+  width: 81%;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.footer__content-left {
+  margin-bottom: 0;
+}
+
+.footer__menu-list-item:not(:nth-child(3n)) {
+  margin-bottom: 0px;
+}
+
+.footer__menu-list-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.footer__copy {
+  min-height: 52px;
+}
+
 
 
 }
@@ -1355,6 +1406,15 @@
   padding-top: 15px;
 }
 
+.footer__menu-link {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+.footer__menu-list-mobile {
+  width: 75%;
+}
 
 
 

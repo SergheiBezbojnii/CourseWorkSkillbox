@@ -1177,8 +1177,10 @@ body {
   flex-direction: column;
 }
 
-.abouts-us__content {
+.about-us__content {
   flex-direction: column;
+  width: 58%;
+  margin-right: 20px;
 }
 
 .about-us__list {
@@ -1213,11 +1215,6 @@ body {
   line-height: 32px;
   font-weight: 400;
   color: var(--color-text-gray);
-}
-
-.abouts-us__content {
-  width: 58%;
-  margin-right: 20px;
 }
 
 .about-us__bg-dawn {
@@ -1377,41 +1374,14 @@ body {
   left: 35px;
 }
 
+/* footer */
+
+.footer__mobile-list {
+  display: none;
+}
+
 .footer {
   background: var(--color-light-black);
-}
-
-.footer__content {
-  padding-top: 92px;
-  padding-bottom: 94px;
-  /* background-image: url("/img/border.svg");
-  background-repeat: no-repeat;
-  background-position: bottom center; */
-}
-
-.footer__content-left {
-  flex-direction: column;
-}
-
-.footer__content-right {
-  height: 88px;
-}
-
-.social-media__list {
-  justify-content: space-between;
-}
-
-.footer__copy {
-  position: relative;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 400;
-  color: var(--color-text-gray);
-  text-align: center;
-}
-
-.footer__logo-img {
-  margin-bottom: 20px;
 }
 
 .footer__container {
@@ -1419,25 +1389,52 @@ body {
   justify-content: space-between;
 }
 
-.footer__menu-list {
-  width: 445px;
-  flex-wrap: wrap;
+.footer__content {
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
+
+.footer__copy {
+  position: relative;
+  text-align: center;
+}
+
+.footer__copy-bg {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--color-text-gray);
+}
+
+.footer__content-left {
   flex-direction: column;
 }
 
-.footer__menu-list-item:not(:nth-child(3n)) {
+.footer__menu-list {
+  width: 40%;
+  justify-content: space-between;
+}
+
+.footer__logo-img {
   margin-bottom: 20px;
 }
 
-.footer__menu-list-item {
-  cursor: pointer;
+.footer__social-media-list {
+  justify-content: space-between;
+}
+
+.footer__content-list {
+  flex-direction: column;
+}
+
+.footer__menu-link {
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
   color: var(--color-white);
 }
 
-.footer__menu-list-item:not(:last-child) {
-  margin-right: 109px;
+.footer__menu-list-item:not(:nth-child(3n)) {
+  margin-bottom: 20px;
 }
 
