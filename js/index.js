@@ -9,7 +9,8 @@ burgerBtn.addEventListener('click', () => {
 });
 
 menuClose.addEventListener('click', () => {
-  menuBurger.classList.remove('burger-active');
+  menuBurger.classList.remove('burger-active'),
+  menuBurger.classList.remove('list-active');
 });
 
 // select

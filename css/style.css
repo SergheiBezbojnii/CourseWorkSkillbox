@@ -143,6 +143,10 @@ body {
   display: none;
 }
 
+.header-mobile__list {
+  display: none;
+}
+
 .header-bottom__play-btn {
   display: none;
 }
@@ -1433,6 +1437,11 @@ body {
 .footer__copy {
   position: relative;
   text-align: center;
+  min-height: 55px;
+  background-image: url("../img/footer.svg");
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .footer__copy-bg {
@@ -1440,6 +1449,7 @@ body {
   line-height: 16px;
   font-weight: 400;
   color: var(--color-text-gray);
+  margin: auto;
 }
 
 .footer__content-left {
