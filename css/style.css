@@ -172,11 +172,11 @@ body {
   align-items: center;
 }
 
-.header-search {
+.header__search-btn {
   padding-top: 5px;
 }
 
-.header-center__enter {
+.header-center__enter-btn {
   padding: 10px 31px;
   font-size: 16px;
   line-height: 16px;
@@ -266,19 +266,14 @@ body {
 
 /* hero */
 
-.hero__container {
-  justify-content: space-between;
-}
-
-.hero__bg {
-  font-size: 0;
-  padding: 39px 0;
-}
-
 .hero__content {
   flex-direction: column;
-  padding-top: 96px;
+  padding-top: 97px;
   padding-bottom: 94px;
+  background-image: url("../img/microphone-1920.svg");
+  background-repeat: no-repeat;
+  background-size: 350px 372px;
+  background-position: right center;
 }
 
 .hero__italic {
@@ -289,7 +284,7 @@ body {
   font-size: 60px;
   line-height: 60px;
   font-weight: 700;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
 }
 
 .hero__descr {
@@ -335,13 +330,18 @@ body {
 
 .podcasts__list-item {
   width: 48.6%;
-  max-height: 140px;
   background: var(--color-white);
 }
 
-.podcasts__list-item:not(:last-child) {
+.podcasts__list-item {
   margin-bottom: 30px;
 }
+
+.podcasts__content-img {
+  max-width: 112px;
+  height: 100%;
+}
+
 
 .podcasts__content {
   font-size: 0;
@@ -413,12 +413,19 @@ body {
   padding-top: 3px;
 }
 
-.podcasts__social-link {
-  width: 13px;
-  height: 13px;
+.podcasts__social-link-1 {
+  margin-right: 6px;
 }
 
-.podcasts__social-content-text {
+.podcasts__social-link-2 {
+  margin-right: 6px;
+}
+
+.podcasts__social-link-3 {
+  margin-right: 5px;
+}
+
+.podcasts__social-btn {
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
@@ -426,7 +433,7 @@ body {
 }
 
 .podcasts__social-list-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 31px;
 }
 
 .podcasts__social-link:not(:last-child) {
@@ -450,6 +457,13 @@ body {
   padding: 23px 52px;
   border: 2px solid var(--color-primary);
   border-radius: 40px;
+}
+
+.podcasts__btn {
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/broadcast-play-button.svg");
+  margin-top: 6px;
 }
 
 /* broadcasts */
@@ -579,6 +593,7 @@ body {
 }
 
 .broadcasts__left-content {
+  flex-basis: 255px;
   margin-right: 30px;
 }
 
@@ -599,6 +614,7 @@ body {
   outline: 1px solid var(--color-light-color);
   flex-direction: column;
   padding: 20px 70px 20px 16px;
+  max-width: 255px;
 }
 
 .broadcasts__name {
@@ -656,7 +672,6 @@ body {
 
 .guests {
   padding: 95px 0;
-  padding-bottom: 266px;
   background: var(--color-black);
 }
 
@@ -812,6 +827,10 @@ body {
   font-size: 20px;
   line-height: 20px;
   color: var(--color-white);
+}
+
+.autor__name-zaglushka {
+  display: none;
 }
 
 .autor__descr {
@@ -970,6 +989,7 @@ body {
 .playlists__list-item {
   flex-direction: column;
   margin-bottom: 30px;
+  width: 21.8%;
 }
 
 .playlists-content {
@@ -980,11 +1000,19 @@ body {
   position: relative;
 }
 
-.playlists-image-content-bg {
+.playlists-image-content:before {
+  content: '';
   position: absolute;
-  top: 0;
   right: 0;
+  width: 24px;
+  height: 20px;
+  background-image: url("../img/playlists-russian-bg.svg");
 }
+
+.playlists-image-content-2:before {
+  background-image: url("../img/playlists-gb-bg.svg");
+}
+
 
 .playlists-content__bottom {
   padding: 15px 10px 15px 15px;
@@ -1150,11 +1178,15 @@ body {
 
 .be-with-us__title {
   color: var(--color-promo-color);
-  margin-bottom: 17px;
 }
 
-.be-with-us__content-border {
-  margin-bottom: 19px;
+.be-with-us__title:after {
+  content: '';
+  display: inline-block;
+  width: 445px;
+  height: 19px;
+  background-image: url("../img/bewithus-border-1920.png");
+  background-repeat: no-repeat;
 }
 
 .be-with-us__descr {
@@ -1315,11 +1347,14 @@ body {
 }
 
 .about-us__input-1 {
+  resize: vertical;
   width: 100%;
   min-height: 150px;
   border-radius: 30px;
   margin-bottom: 30px;
   padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 18px;
 }
 
 .about-us__input-2 {
@@ -1332,6 +1367,7 @@ body {
   min-height: 70px;
   border-radius: 40px;
   margin-bottom: 30px;
+  padding-right: 30px;
 }
 
 .about-us-form__checkbox {
@@ -1469,6 +1505,27 @@ body {
   justify-content: space-between;
 }
 
+.footer__social-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.footer__social-youtube {
+  background-image: url("../img/youtube-icon.svg");
+}
+
+.footer__social-insta {
+  background-image: url("../img/instagram-icon.svg");
+}
+
+.footer__social-fb {
+  background-image: url("../img/fb-icon.svg");
+}
+
+.footer__social-tw {
+  background-image: url("../img/twitter-icon.svg");
+}
+
 .footer__content-list {
   flex-direction: column;
 }
@@ -1483,4 +1540,5 @@ body {
 .footer__menu-list-item:not(:nth-child(3n)) {
   margin-bottom: 20px;
 }
+
 
