@@ -143,7 +143,7 @@ body {
   display: none;
 }
 
-.header-mobile__list {
+.header__mobile {
   display: none;
 }
 
@@ -340,6 +340,7 @@ body {
 .podcasts__content-img {
   max-width: 112px;
   height: 100%;
+  object-fit: cover;
 }
 
 
@@ -398,10 +399,12 @@ body {
 }
 
 .podcasts__name {
+  max-width: 200px;
   margin-bottom: 3px;
 }
 
 .podcasts__autor {
+  max-width: 200px;
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
@@ -576,6 +579,7 @@ body {
 
 .broadcasts__list-item-content {
   font-size: 0;
+  height: 100%;
 }
 
 .broadcasts__title {
@@ -615,6 +619,7 @@ body {
   flex-direction: column;
   padding: 20px 70px 20px 16px;
   max-width: 255px;
+  height: 100%;
 }
 
 .broadcasts__name {
@@ -994,6 +999,11 @@ body {
 
 .playlists-content {
   flex-direction: column;
+  height: 100%;
+}
+
+.playlists-content__img {
+  object-fit: cover;
 }
 
 .playlists-image-content {
@@ -1018,6 +1028,7 @@ body {
   padding: 15px 10px 15px 15px;
   flex-direction: column;
   border: 1px solid var(--color-light-color);
+  height: 100%;
 }
 
 .playlists-content__subtitle {
@@ -1058,6 +1069,7 @@ body {
 }
 
 .form-container__label {
+  cursor: pointer;
   font-size: 20px;
   line-height: 20px;
   font-weight: 400;
@@ -1315,6 +1327,7 @@ body {
 
 .about-us__list-item-img {
   margin-bottom: 30px;
+  object-fit: cover;
 }
 
 .about-us-form {
@@ -1347,7 +1360,7 @@ body {
 }
 
 .about-us__input-1 {
-  resize: vertical;
+  resize: none;
   width: 100%;
   min-height: 150px;
   border-radius: 30px;
@@ -1401,6 +1414,7 @@ body {
   align-items: flex-end;
   padding-left: 22px;
   padding-top: 3px;
+  cursor: pointer;
 }
 
 .about-us__checkbox {
