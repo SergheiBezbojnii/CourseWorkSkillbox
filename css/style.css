@@ -445,6 +445,10 @@ body {
   padding-top: 1px;
 }
 
+.podcasts__social-link path {
+  transition: all .3s ease-in-out;
+}
+
 .podcasts__social-link-1 {
   margin-right: 6px;
 }
@@ -520,18 +524,21 @@ body {
   box-shadow: none;
   text-shadow: none;
   z-index: 10;
+  transition: all .3s ease-in-out;
 }
 
 .jq-selectbox__select:hover {
   background: var(--color-light-color);
+  outline: 1px solid var(--color-primary-light);
 }
 
 .jq-selectbox.focused .jq-selectbox__select {
-  border: 1px solid var(--color-light-color);
+  border: 1px solid var(--color-primary);
 }
 
 .jq-selectbox__select-text {
   overflow: visible;
+  width: 160px;
 }
 
 .jq-selectbox__trigger {
@@ -571,11 +578,11 @@ body {
   bottom: 0;
   padding-top: 5px;
   padding-bottom: 10px;
-  font-family: inherit;
   border: none;
   border-radius: 10px;
   box-shadow: none;
   background: var(--color-light-color);
+  font-family: inherit;
 }
 
 .jq-selectbox li {
@@ -587,6 +594,11 @@ body {
   color: var(--color-light-black);
 }
 
+.jq-selectbox li:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
 .selected.sel.disabled {
   background-color: var(--color-light-color);
 }
@@ -594,6 +606,10 @@ body {
 .broadcasts {
   padding-top: 94px;
   padding-bottom: 64px;
+}
+
+.broadcast-content-img {
+  transition: all .3s ease-in-out;
 }
 
 .broadcasts__list-left {
@@ -669,11 +685,14 @@ body {
 }
 
 .broadcasts__link {
+  width: 119px;
+  position: relative;
   align-items: center;
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
   font-style: italic;
+  transition: all .3s ease-in-out;
 }
 
 .broadcasts__bottom-content {
@@ -690,6 +709,7 @@ body {
   border-radius: 77px;
   align-items: center;
   margin-bottom: 13px;
+  transition: all .3s ease-in-out;
 }
 
 .broadcasts__bottom-content-img {
@@ -698,6 +718,10 @@ body {
 
 .broadcasts__link-svg {
   margin-right: 3px;
+}
+
+.broadcasts__link-svg path {
+  transition: all .3s ease-in-out;
 }
 
 .broadcasts__bottom-descr {
@@ -898,7 +922,7 @@ body {
   transform: rotate(180deg);
 }
 
-/* .accordion__item:last-child:hover {
+.accordion__item:last-child:hover {
   border-bottom: 1px solid var(--color-primary-light);
 }
 
@@ -913,6 +937,10 @@ body {
 .accordion__item:hover .accordion__title {
   color: var(--color-primary-light);
 }
+
+.accordion__item:hover .accordion__title .accordion__btn img {
+  color: var(--color-primary-light);
+} 
 
 .accordion__item:hover .accordion__btn {
   background-color: transparent;
@@ -977,7 +1005,7 @@ body {
 .accordion__link-plug:active {
   color: var(--color-primary);
   background: none;
-} */
+}
 
 /* playlists */
 
@@ -1735,4 +1763,77 @@ body {
   background: var(--color-primary-shade);
 }
 
+.podcasts__social-list-item {
+  transition: all .3s ease-in-out;
+}
 
+.broadcasts__link::before {
+  position: absolute;
+  top: -230px;
+  right: 0;
+  bottom: 0;
+  left: -23px;
+  content: '';
+  width: 269px;
+  height: 274px;
+  border: 1px solid var(--color-primary);
+  opacity: 0;
+}
+
+.broadcasts__link::after {
+  position: absolute;
+  top: -224px;
+  right: -70px;
+  left: -16px;
+  content: '';
+  height: 148px;
+  width: 255px;
+  background-color: var(--color-light_color);
+  transition: all .3s ease-in-out;
+  opacity: 0;
+}
+
+.broadcasts__link:hover::after {
+  opacity: .3;
+}
+
+.broadcasts__link:hover {
+  color: var(--color-primary);
+}
+
+.broadcasts__link:hover svg path {
+  fill: var(--color-primary);
+}
+
+.broadcasts__link:focus-visible {
+  color: var(--color-white);
+  background-color: var(--color-primary-light);
+  outline: none;
+}
+
+.broadcasts__link:focus-visible svg path {
+  fill: var(--color-white);
+}
+
+.broadcasts__link:focus-visible::before {
+  opacity: 1;
+}
+
+.broadcasts__bottom-link:hover {
+  background: var(--color-primary-light);
+}
+
+.broadcasts__bottom-link:focus {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.broadcasts__bottom-link:focus svg path {
+  transition: all .3s ease-in-out;
+  stroke: var(--color-white);
+}
+
+.broadcasts__bottom-link:active {
+  border-color: var(--color-primary-shade);
+  background: var(--color-primary-shade);
+}
