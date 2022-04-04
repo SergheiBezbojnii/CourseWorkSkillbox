@@ -137,3 +137,20 @@ new JustValidate('.about-us-form', {
     }
   }
 });
+
+
+const btn = document.querySelector('.podcasts__button');
+const el1 = document.querySelector('.podcasts__list-item-9');
+const el2 = document.querySelector('.podcasts__list-item-10');
+const el3 = document.querySelector('.podcasts__list-item-11');
+const el4 = document.querySelector('.podcasts__list-item-12');
+
+btn.addEventListener('click', () => {
+  el1.classList.add('block-active');
+  el2.classList.add('block-active');
+  el3.classList.add('block-active');
+  el4.classList.add('block-active');
+  btn.classList.add('btn-hidden');
+});
+
+

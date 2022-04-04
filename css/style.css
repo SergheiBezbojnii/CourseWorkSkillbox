@@ -236,14 +236,17 @@ body {
   font-weight: 400;
 }
 
-.header-bottom__link {
-  padding: 3px 5px;
-  transition: all .3s ease-in-out;
-}
-
 .header-bottom__btn {
   padding-left: 11px;
   padding-right: 9px;
+}
+
+.header-bottom__limitation-icon {
+  background-image: url("../img/12+icon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 46px;
+  height: 58px;
 }
 
 .header-bottom__btn svg path {
@@ -507,6 +510,21 @@ body {
   transition: all .3s ease-in-out;
 }
 
+.podcasts__list-item-9,
+.podcasts__list-item-10,
+.podcasts__list-item-11,
+.podcasts__list-item-12 {
+  display: none;
+}
+
+.block-active {
+  display: block;
+}
+
+.btn-hidden {
+  display: none;
+}
+
 /* broadcasts */
 
 .jq-selectbox__select {
@@ -601,6 +619,14 @@ body {
   background-color: var(--color-light-color-40);
 }
 
+.jq-selectbox li.selected {
+  color: var(--color-primary);
+}
+
+.jq-selectbox li.disabled {
+  color: var(--color-light-color-40);
+}
+
 .broadcasts {
   padding-top: 94px;
   padding-bottom: 64px;
@@ -628,6 +654,7 @@ body {
 .broadcasts__list-item-content {
   font-size: 0;
   height: 100%;
+  position: relative;
 }
 
 .broadcasts__title {
@@ -684,7 +711,6 @@ body {
 
 .broadcasts__link {
   width: 119px;
-  position: relative;
   align-items: center;
   font-size: 16px;
   line-height: 16px;
@@ -1863,22 +1889,23 @@ body {
 
 .broadcasts__link::before {
   position: absolute;
-  top: -230px;
+  top: -7px;
   right: 0;
   bottom: 0;
-  left: -23px;
+  left: -7px;
   content: '';
-  width: 269px;
-  height: 274px;
+  width: 271px;
+  height: 106%;
   border: 1px solid var(--color-primary);
   opacity: 0;
+  transition: all .3s ease-in-out;
 }
 
 .broadcasts__link::after {
   position: absolute;
-  top: -224px;
-  right: -70px;
-  left: -16px;
+  top: 0;
+  right: 0;
+  left: 0;
   content: '';
   height: 148px;
   width: 255px;
@@ -1920,6 +1947,10 @@ body {
 .broadcasts__bottom-link:focus {
   background: var(--color-black);
   color: var(--color-white);
+}
+
+.broadcasts__bottom-link:focus-visible {
+  outline: none;
 }
 
 .broadcasts__bottom-link:focus svg path {
