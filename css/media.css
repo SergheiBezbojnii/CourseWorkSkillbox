@@ -93,7 +93,7 @@
 }
 
 .header-bottom__list {
-  width: 60%;
+  width: 59.5%;
 }
 
 
@@ -338,7 +338,7 @@
 }
 
 .header-bottom__list {
-  width: 92.5%;
+  width: 91.5%;
 }
 
 .header-bottom__container {
@@ -1677,6 +1677,9 @@
   left: 25%;
 }
 
+.playlists-image-content svg {
+  left: 25%;
+}
 
 }
 
