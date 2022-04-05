@@ -1112,7 +1112,7 @@
   height: 100%;
 }
 
-.header-mobile__list {
+.header__mobile-list {
   flex-direction: column;
   flex-wrap: wrap;
   max-height: 108px;
@@ -1125,15 +1125,15 @@
   flex-direction: column;
 }
 
-.header-bottom__list-item {
+.header__mobile-list-item {
   width: 72px;
 }
 
-.header-bottom__list-item:not(:last-child) {
+.header__mobile-list-item:not(:last-child) {
   margin-right: 0px;
 }
 
-.header-bottom__list-item:not(:nth-child(3n)) {
+.header__mobile-list-item:not(:nth-child(3n)) {
   margin-bottom: 30px;
 }
 
