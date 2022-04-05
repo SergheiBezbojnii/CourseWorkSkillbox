@@ -864,8 +864,14 @@
   width: 400px;
 }
 
+.broadcasts__link::before {
+  width: 106%;
+}
 
-
+.broadcasts__link::after {
+  width: 100%;
+  height: 88px;
+}
 
 }
 
@@ -1271,6 +1277,7 @@
 }
 
 .broadcasts__link {
+  width: 95px;
   color: var(--color-primary);
 }
 
@@ -1680,6 +1687,15 @@
 .playlists-image-content svg {
   left: 25%;
 }
+
+.broadcasts__link::before {
+  width: 109%;
+}
+
+.broadcasts__link::after {
+  height: 62px;
+}
+
 
 }
 
