@@ -334,7 +334,7 @@
 }
 
 .header-bottom {
-  padding-left: 109px;
+  padding: 0 115px;
 }
 
 .header-bottom__list {
@@ -752,6 +752,10 @@
   background-image: url("../img/tw-icon-768.svg");
 }
 
+.jq-selectbox__dropdown {
+  background: var(--color-light-color);
+}
+
 
 
 }
@@ -906,6 +910,10 @@
   padding-bottom: 6px;
 }
 
+.header-bottom {
+  padding: 0;
+}
+
 .header-center__buttons {
   width: 24px;
   height: 24px;
@@ -936,7 +944,7 @@
   max-width: 200px;
   font-size: 16px;
   line-height: 16px;
-  padding: 17px 45px;
+  padding: 17px 40px;
 }
 
 .podcasts__content {

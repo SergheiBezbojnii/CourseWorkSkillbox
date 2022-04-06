@@ -54,7 +54,7 @@
                                 <a href="#playlists" class="menu__link">Плейлисты</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#about-us" class="menu__link">О нас</a>
+                                <a href="#about-us" class="menu__link">О&nbsp;нас</a>
                             </li>
                         </ul>
                     </div>
@@ -100,8 +100,8 @@
             </div>
         </div>
 
-        <div class="header-bottom container flex fz-hack">
-            <div class="header-bottom__container flex">
+        <div class="header-bottom flex fz-hack">
+            <div class="header-bottom__container container flex">
                 <ul class="header-bottom__list list-reset flex">
                     <li class="header__mobile-list-item">
                         <a href="#" class="header__mobile-bottom__link" >Новости</a>
@@ -134,9 +134,9 @@
                         </button>
                         <div class="header-bottom__content">
                             <span class="header-bottom__subtitle">Ранее в эфире</span>
-                            <p class="header-bottom__title">
+                            <span class="header-bottom__title">
                                 «Музыка»
-                            </p>
+                            </span>
                         </div>
                     </div>
                     <div class="header-bottom__btn-2 flex">
@@ -150,9 +150,9 @@
                         </button>
                         <div class="header-bottom__content">
                             <span class="header-bottom__subtitle">Сейчас в эфире</span>
-                            <p class="header-bottom__title">
+                            <span class="header-bottom__title">
                                 «Как так?»
-                            </p>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -179,9 +179,9 @@
         <section class="hero" id="hero">
             <div class="container hero__container">
                 <div class="hero__content flex">
-                    <h1 class="hero__title section-reset">Радио <i class="hero__italic">W-Wawe</i></h1>
+                    <h1 class="hero__title section-reset">Радио <span class="hero__italic">W-Wawe</span></h1>
                     <p class="hero__descr section-reset">Привет, на&nbsp;связи W-Wawe! Раньше мы&nbsp;были<a href="#"
-                            class="hero__span-link" aria-label="Перейти на сайт издания">изданием</a>, а&nbsp;теперь
+                            class="hero__span-link" aria-describedby="about-us">изданием</a>, а&nbsp;теперь
                         пробуем себя в&nbsp;разоворном жанре. Говорим о&nbsp;музыке, политике, истории, науке
                         и&nbsp;культуре. Здесь, помимо прямого эфира&nbsp;&mdash; архив передач и&nbsp;многое другое :)
                     </p>
@@ -201,20 +201,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-1-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">14 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-06-14">14 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
+                                        <time class="podcasts__time">
                                             15:43
-                                        </span>
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Европа. XIX век
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Дмитрий Гутенберг
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -265,20 +265,20 @@
                                     <source srcset="img/podcast-2-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-2-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">11 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-06-11">11 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
-                                            5:32
-                                        </span>
+                                        <time class="podcasts__time">
+                                            05:32
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             О музыке
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Дмитрий Гутенберг
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -329,20 +329,20 @@
                                     <source srcset="img/podcast-3-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-3-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">8 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-06-08">8 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
-                                            8:54
-                                        </span>
+                                        <time class="podcasts__time">
+                                            08:54
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Люди сегодня
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Анна Васильева
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -393,20 +393,20 @@
                                     <source srcset="img/podcast-4-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-4-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">5 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-06-05">5 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
-                                            9:04
-                                        </span>
+                                        <time class="podcasts__time">
+                                            09:04
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Хэллоу, Африка!
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Пётр Дмитриевский
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -457,20 +457,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-5-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">2 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-06-02">2 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
-                                            7:03
-                                        </span>
+                                        <time class="podcasts__time">
+                                            07:03
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Обо всём
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Пётр Дмитриевский
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -521,20 +521,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-6-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">28 мая</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-05-28">28 мая</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
-                                            9:15
-                                        </span>
+                                        <time class="podcasts__time">
+                                            09:15
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Физика цвета
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Татьяна Флеганова
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -585,20 +585,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-7-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">22 мая</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-05-22">22 мая</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
+                                        <time class="podcasts__time">
                                             16:04
-                                        </span>
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Источник звука
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Пётр Дмитриевский
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -649,20 +649,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-8-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">18 мая</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-05-18">18 мая</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
-                                            6:55
-                                        </span>
+                                        <time class="podcasts__time">
+                                            06:55
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Правила этикета
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Татьяна Флеганова
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -713,20 +713,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-1-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">14 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-05-14">14 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
+                                        <time class="podcasts__time">
                                             15:43
-                                        </span>
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Европа. XIX век
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Дмитрий Гутенберг
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -777,20 +777,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-1-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">14 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-05-14">14 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
+                                        <time class="podcasts__time">
                                             15:43
-                                        </span>
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Европа. XIX век
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Дмитрий Гутенберг
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -841,20 +841,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-1-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">14 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-05-14">14 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
+                                        <time class="podcasts__time">
                                             15:43
-                                        </span>
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Европа. XIX век
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Дмитрий Гутенберг
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -905,20 +905,20 @@
                                     <source srcset="img/podcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
                                     <img src="img/podcast-1-d.jpg" class="podcasts__content-img" alt="Изображение подкаста">
                                 </picture>
-                                <div class="podcasts__image-content-data flex">14 июня</div>
+                                <time class="podcasts__image-content-data flex" datetime="2022-05-14">14 июня</time>
                             </div>
                             <div class="podcasts__content-item flex">
                                 <div class="podcasts__content-item-top flex">
                                     <div class="podcasts__content-item-left flex">
-                                        <span class="podcasts__time">
+                                        <time class="podcasts__time">
                                             15:43
-                                        </span>
+                                        </time>
                                         <h3 class="podcasts__name subtitle-reset section-reset">
                                             Европа. XIX век
                                         </h3>
-                                        <p class="podcasts__autor section-reset">
+                                        <span class="podcasts__autor section-reset">
                                             Дмитрий Гутенберг
-                                        </p>
+                                        </span>
                                     </div>
                                     <button class="podcasts__btn btn-reset" aria-label="Слушать подкаст"></button>
                                 </div>
@@ -984,7 +984,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-1-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <source srcset="img/broadcast-1-m.jpg" media="(max-width: 640px)">
                                     <img src="img/broadcast-1-d.jpg" class="broadcast-content-img"
                                         alt="Обложка передачи">
                                 </picture>
@@ -1005,7 +1005,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-2-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <source srcset="img/broadcast-2-m.jpg" media="(max-width: 640px)">
                                     <img src="img/broadcast-2-d.jpg" class="broadcast-content-img"
                                         alt="Обложка передачи">
                                 </picture>
@@ -1025,7 +1025,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-3-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <source srcset="img/broadcast-3-m.jpg" media="(max-width: 640px)">
                                     <img src="img/broadcast-3-d.jpg" class="broadcast-content-img"
                                         alt="Обложка передачи">
                                 </picture>
@@ -1046,7 +1046,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-4-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <source srcset="img/broadcast-4-m.jpg" media="(max-width: 640px)">
                                     <img src="img/broadcast-4-d.jpg" class="broadcast-content-img"
                                         alt="Обложка передачи">
                                 </picture>
@@ -1066,7 +1066,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-5-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <source srcset="img/broadcast-5-m.jpg" media="(max-width: 640px)">
                                     <img src="img/broadcast-5-d.jpg" class="broadcast-content-img"
                                         alt="Обложка передачи">
                                 </picture>
@@ -1086,7 +1086,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-6-m.jpg" type="image/png" media="(max-width: 640px)">
+                                    <source srcset="img/broadcast-6-m.jpg" media="(max-width: 640px)">
                                     <img src="img/broadcast-6-d.jpg" class="broadcast-content-img"
                                         alt="Обложка передачи">
                                 </picture>
@@ -1134,7 +1134,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-1-m.jpg" type="image/png" media="(max-width: 500px)">
+                                    <source srcset="img/broadcast-1-m.jpg" media="(max-width: 500px)">
                                     <img src="img/broadcast-1-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
@@ -1155,7 +1155,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-2-m.jpg" type="image/png" media="(max-width: 500px)">
+                                    <source srcset="img/broadcast-2-m.jpg" media="(max-width: 500px)">
                                     <img src="img/broadcast-2-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
@@ -1175,7 +1175,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-3-m.jpg" type="image/png" media="(max-width: 500px)">
+                                    <source srcset="img/broadcast-3-m.jpg" media="(max-width: 500px)">
                                     <img src="img/broadcast-3-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
@@ -1196,7 +1196,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-4-m.jpg" type="image/png" media="(max-width: 500px)">
+                                    <source srcset="img/broadcast-4-m.jpg" media="(max-width: 500px)">
                                     <img src="img/broadcast-4-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
@@ -1216,7 +1216,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-5-m.jpg" type="image/png" media="(max-width: 500px)">
+                                    <source srcset="img/broadcast-5-m.jpg" media="(max-width: 500px)">
                                     <img src="img/broadcast-5-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
@@ -1236,7 +1236,7 @@
                         <li class="broadcasts__list-item">
                             <div class="broadcasts__list-item-content flex">
                                 <picture>
-                                    <source srcset="img/broadcast-6-m.jpg" type="image/png" media="(max-width: 500px)">
+                                    <source srcset="img/broadcast-6-m.jpg" media="(max-width: 500px)">
                                     <img src="img/broadcast-6-d.jpg" class="broadcast-content-img" alt="Обложка передачи">
                                 </picture>
                                 <div class="broadcasts__content flex">
@@ -2176,12 +2176,12 @@
                     <div class="about-us__bg flex">
                         <picture>
                             <source srcset="img/aboutus-spiral-768.png" type="image/png" media="(max-width: 1023px)">
-                            <img src="img/aboutus-spiral-1920.png" class="about-us__bg-spiral" alt="">
+                            <img src="img/aboutus-spiral-1920.png" class="about-us__bg-spiral" aria-hidden="true" alt="#">
                         </picture>
                         <picture>
                             <source srcset="img/aboutus-dawn-768.png" type="image/png" media="(max-width: 1023px)">
                             <source srcset="img/aboutus-dawn-1024.png" type="image/png" media="(max-width: 1024px)">
-                            <img src="img/aboutus-dawn-1920.png" class="about-us__bg-dawn" alt="">
+                            <img src="img/aboutus-dawn-1920.png" class="about-us__bg-dawn" aria-hidden="true" alt="#">
                         </picture>
                     </div>
                 </div>

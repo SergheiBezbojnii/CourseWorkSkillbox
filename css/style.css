@@ -212,7 +212,6 @@ body {
 .header-bottom {
   border-top: 1px solid var(--color-light-color);
   border-bottom: 1px solid var(--color-light-color);
-  padding-left: 95px;
 }
 
 .header__mobile-bottom__link {
@@ -223,12 +222,12 @@ body {
   align-items: center;
   width: 100%;
   justify-content: space-between;
+  padding: 0 100px;
 }
 
 .header-bottom__list {
   width: 55.2%;
   justify-content: space-between;
-  padding-left: 5px;
 }
 
 .header__mobile-list-item {
@@ -275,6 +274,7 @@ body {
 }
 
 .header-bottom__title {
+  display: block;
   margin: 0;
   font-size: 16px;
   line-height: 16px;
@@ -303,6 +303,7 @@ body {
 }
 
 .hero__italic {
+  font-style: italic;
   font-weight: 400;
 }
 
@@ -894,7 +895,7 @@ body {
 
 .autor__list {
   align-items: center;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 .autor__list-item:not(:last-child) {
@@ -987,11 +988,11 @@ body {
   outline: none;
 }
 
-.accordion__item:focus .accordion__row {
+.accordion__item:focus-visible .accordion__row {
   background: rgba(170, 157, 250, 0.3);
 }
 
-.accordion__item:focus .accordion__title {
+.accordion__item:focus-visible .accordion__title {
   color: var(--color-white);
 }
 
@@ -1136,15 +1137,7 @@ body {
   opacity: .8;
 }
 
-.playlists-image-content:focus picture::before {
-  opacity: .8;
-}
-
 .playlists-image-content:hover svg {
-  opacity: 1;
-}
-
-.playlists-image-content:focus-visible svg {
   opacity: 1;
 }
 
@@ -1641,8 +1634,8 @@ body {
 
 .js-validate-error-label {
   position: absolute;
-  top: 5px;
-  left: 35px;
+  top: 10px;
+  left: 32px;
 }
 
 /* footer */
@@ -1772,7 +1765,7 @@ body {
   color: var(--color-white);
 }
 
-.header-center__enter-btn:focus {
+.header-center__enter-btn:focus-visible {
   background: var(--color-primary-light);
   outline: none;
 }
@@ -1787,7 +1780,7 @@ body {
   color: var(--color-primary);
 }
 
-.header__mobile-bottom__link:focus {
+.header__mobile-bottom__link:focus-visible {
   outline: none;
   background: var(--color-primary-light);
   color: var(--color-white);
@@ -1797,11 +1790,11 @@ body {
   fill: var(--color-primary);
 }
 
-.header-bottom__btn:focus {
+.header-bottom__btn:focus-visible {
   outline: none;
 }
 
-.header-bottom__btn:focus svg path {
+.header-bottom__btn:focus-visible svg path {
   fill: var(--color-primary-light);
 }
 
@@ -1809,7 +1802,7 @@ body {
   border-color: var(--color-primary);
 }
 
-.hero__span-link:focus {
+.hero__span-link:focus-visible {
   border: none;
   background: var(--color-primary-light);
   color: var(--color-white);
@@ -1820,7 +1813,7 @@ body {
   border-color: var(--color-primary-light);
 }
 
-.hero__link:focus {
+.hero__link:focus-visible {
   outline: none;
   background: var(--color-primary-light);
   border-color: var(--color-primary-shade);
@@ -1834,7 +1827,7 @@ body {
   background-image: url("../img/broadcast-play-button-hover.svg");
 }
 
-.podcasts__btn:focus {
+.podcasts__btn:focus-visible {
   outline: none;
   background-image: url("../img/broadcast-play-button-focus.svg");
 }
@@ -1852,13 +1845,13 @@ body {
   fill: var(--color-primary);
 }
 
-.podcasts__social-btn:focus {
+.podcasts__social-btn:focus-visible {
   outline: none;
   color: white;
   background: var(--color-primary-light);
 }
 
-.podcasts__social-btn:focus svg path {
+.podcasts__social-btn:focus-visible svg path {
   transition: all .3s ease-in-out;
   fill: var(--color-white);
 }
@@ -1872,7 +1865,7 @@ body {
   background: var(--color-primary);
 }
 
-.podcasts__button:focus {
+.podcasts__button:focus-visible {
   outline: none;
   color: var(--color-white);
   background: var(--color-primary-light);
@@ -1990,7 +1983,7 @@ body {
   fill: var(--color-promo-color);
 }
 
-.be-with-us__link:focus {
+.be-with-us__link:focus-visible {
   outline: none;
   border: 2px solid var(--color-promo-color);
   background: var(--color-promo-color-shade);
@@ -2009,7 +2002,7 @@ body {
   color: var(--color-white);
 }
 
-.autor__link:focus {
+.autor__link:focus-visible {
   outline: none;
   background: var(--color-primary);
   border-color: var(--color-primary);
@@ -2043,7 +2036,7 @@ body {
   fill: var(--color-primary);
 }
 
-.footer__social-btn:focus svg path {
+.footer__social-btn:focus-visible svg path {
   outline: none;
   fill: var(--color-primary-light);
 }
@@ -2064,7 +2057,7 @@ body {
   color: var(--color-primary);
 }
 
-.footer__menu-link:focus {
+.footer__menu-link:focus-visible {
   background: var(--color-primary-light);
   color: var(--color-white);
 }
