@@ -1949,8 +1949,10 @@ body {
 
 /* effects */
 
-.menu__link:hover {
-  color: var(--color-primary);
+@media screen and (any-hover: hover) {
+  .menu__link:hover {
+    color: var(--color-primary);
+  }
 }
 
 .menu__link:focus-visible {
@@ -1963,9 +1965,11 @@ body {
   color: var(--color-primary-shade);
 }
 
-.header-center__enter-btn:hover {
-  background: var(--color-black);
-  color: var(--color-white);
+@media screen and (any-hover: hover) {
+  .header-center__enter-btn:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+  }
 }
 
 .header-center__enter-btn:focus-visible {
@@ -2031,9 +2035,13 @@ body {
   border-color: var(--color-primary-shade);
 }
 
-.podcasts__btn:hover {
-  background-image: url("../img/broadcast-play-button-hover.svg");
+@media screen and (any-hover: hover) {
+  .podcasts__btn:hover {
+    background-image: url("../img/broadcast-play-button-hover.svg");
+  }
 }
+
+
 
 .podcasts__btn:focus-visible {
   outline: none;

@@ -1120,9 +1120,9 @@
   margin-right: 16px;
 }
 
-
-
-
+.about-us__title {
+  margin-bottom: 11px;
+}
 
 .hero__content {
   padding-top: 78px;
@@ -1309,6 +1309,11 @@
 
 .footer__copy-bg {
   padding-top: 30px;
+}
+
+.footer__social-btn svg {
+  width: 36px;
+  height: 36px;
 }
 
 
@@ -1950,6 +1955,11 @@
 
 .broadcasts__time {
   margin-bottom: 17px;
+}
+
+.js-validate-error-label {
+  top: 1px;
+  left: 24px;
 }
 
 
