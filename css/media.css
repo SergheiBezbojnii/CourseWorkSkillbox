@@ -48,9 +48,11 @@
   background-image: url("../img/bewithus-border-1024.png");
 }
 
-.about-us__bg-spiral {
-  display: none;
+.about-us__container-top {
+  background-image: url("../img/aboutus-dawn-1024.png");
+  background-position: 100% 50%;
 }
+
 .about-us__content {
   margin-right: auto;
 }
@@ -96,7 +98,7 @@
   width: 94%;
 }
 
-.header-bottom_list-container {
+.header-bottom__container-list {
   width: 100%;
 }
 
@@ -199,7 +201,8 @@
 }
 
 .autor__foto {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  height: 159px;
 }
 
 .guests__container-right {
@@ -220,6 +223,10 @@
 
 .playlists__list-left {
   display: flex;
+}
+
+.playlists-content svg {
+  left: 25%;
 }
 
 .form-input {
@@ -282,11 +289,7 @@
 }
 
 .about-us__content {
-  width: 70%;
-}
-
-.about-us__bg-dawn {
-  padding-top: 49px;
+  width: 67%;
 }
 
 .about-us__list-item {
@@ -347,10 +350,6 @@
   display: block;
   background-image: url(../img/burger-icon.svg);
   background-repeat: no-repeat;
-}
-
-.header-center {
-  padding-left: auto;
 }
 
 .header-bottom {
@@ -559,11 +558,15 @@
 .broadcasts__content {
   outline: none;
   border: 1px solid var(--color-light-color);
-  padding: 20px 15px 17px 15px;
+  padding: 20px 15px 19px 15px;
 }
 
 .broadcasts__link-arrow {
-  padding-top: 5px;
+  margin-left: 5px;
+}
+
+.broadcasts__link-arrow path {
+  transition: all .3s ease-in-out;
 }
 
 .broadcasts__name {
@@ -571,7 +574,7 @@
 }
 
 .broadcasts__time {
-  margin-bottom: 18px;
+  margin-bottom: 21px;
 }
 
 .broadcasts__list-item {
@@ -605,6 +608,7 @@
 
 .autor__foto {
   margin-bottom: 13px;
+  height: 220px;
 }
 
 .autor__name {
@@ -624,7 +628,7 @@
 }
 
 .autor__list {
-  margin-bottom: 8px;
+  margin-bottom: 13px;
 }
 
 .form-btn {
@@ -697,28 +701,33 @@
   margin-bottom: 29px;
 }
 
-.about-us__bg-spiral {
-  display: block;
-  height: 112px;
-  width: 399px;
-}
-
-.about-us__bg {
-  align-items: center;
-  justify-content: space-between;
-}
-
-.about-us__bg-dawn {
-  padding: 0;
-}
-
 .about-us__list-item {
   width: 47.2%;
 }
 
 .about-us__container-top {
-  margin-bottom: 30px;
+  background-image: none;
+  margin-bottom: 5px;
 }
+
+.about-us__container-top::after {
+  position: relative;
+  height: 137px;
+  width: 654px;
+  content: '';
+  left: -114px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("../img/about-us-bg-768.png");
+  background-repeat: no-repeat;
+}
+
+/* .about-us {
+  background-image: url("../img/about-us-bg-768.png");
+  background-repeat: no-repeat;
+  background-position: 0 25.3%;
+} */
 
 .about-us__list-item-descr {
   max-width: 280px;
@@ -859,7 +868,7 @@
   justify-content: center;
 }
 
-.header-bottom_list-container {
+.header-bottom__container-list {
   display: none;
 }
 
@@ -969,11 +978,13 @@
   display: block;
 }
 
+.playlists-content svg {
+  left: 38%;
+}
 
-
-
-
-
+.about-us__container-top::after {
+  display: none;
+}
 
 .broadcasts__list-item {
   width: 47%;
@@ -1039,10 +1050,6 @@
   width: 35%;
 }
 
-.about-us__bg {
-  display: none;
-}
-
 .be-with-us__title:after {
   width: 400px;
 }
@@ -1053,7 +1060,7 @@
 
 .broadcasts__link::after {
   width: 100%;
-  height: 88px;
+  height: 112px;
 }
 
 }
@@ -1166,7 +1173,6 @@
   max-width: none;
 }
 
-
 .broadcasts {
   padding-top: 55px;
 }
@@ -1200,12 +1206,18 @@
 }
 
 .broadcasts__link {
+  width: 100px;
   font-size: 12px;
   line-height: 12px;
 }
 
-.broadcasts__link-arrow {
-  padding-top: 2px;
+.broadcasts__link::after {
+  height: 88px;
+}
+
+.autor__foto {
+  height: 159px;
+  margin-bottom: 20px;
 }
 
 .broadcasts__list {
@@ -1242,6 +1254,10 @@
 .playlists-content__descr {
   font-size: 9px;
   line-height: 9px;
+}
+
+.playlists-content svg {
+  left: 31%;
 }
 
 .about-us__list-item {
@@ -1514,15 +1530,11 @@
 }
 
 .broadcasts__content {
-  padding: 10px 9px 9px 9px;
+  padding: 10px 9px 11px 9px;
 }
 
 .broadcasts__name {
   margin-bottom: 5px;
-}
-
-.broadcasts__link-arrow {
-  padding-left: 4px;
 }
 
 .broadcasts__list-item {
@@ -1538,7 +1550,7 @@
 }
 
 .broadcasts__bottom-content {
-  padding-top: 30px;
+  padding-top: 28px;
 }
 
 .broadcasts__bottom-content-img {
@@ -1562,8 +1574,16 @@
   margin-right: 3px;
 }
 
+.broadcasts__link-arrow path {
+  fill: var(--color-primary);
+}
+
+.broadcasts__link::before {
+  height: 108%;
+}
+
 .broadcasts {
-  padding-bottom: 22px;
+  padding-bottom: 23px;
 }
 
 .guests {
@@ -1586,7 +1606,7 @@
   max-width: 256px;
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .accordion__btn {
@@ -1657,7 +1677,7 @@
 }
 
 .autor__list {
-  margin-bottom: 7px;
+  margin-bottom: 16px;
 }
 
 .autor__descr {
@@ -1670,7 +1690,7 @@
 }
 
 .autor__foto {
-  margin-bottom: 12px;
+  margin-bottom: 23px;
 }
 
 .playlists {
@@ -1921,11 +1941,15 @@
 }
 
 .broadcasts__link::before {
-  width: 109%;
+  width: 112%;
 }
 
 .broadcasts__link::after {
-  height: 62px;
+  height: 50px;
+}
+
+.broadcasts__time {
+  margin-bottom: 17px;
 }
 
 
