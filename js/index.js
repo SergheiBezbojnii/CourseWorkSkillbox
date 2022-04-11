@@ -15,13 +15,13 @@ menuClose.addEventListener('click', () => {
 
 // select
 
-(function ($) {
-  $(function () {
+// (function ($) {
+//   $(function () {
 
-    $('select').styler();
+//     $('select').styler();
 
-  });
-})(jQuery);
+//   });
+// })(jQuery);
 
 // guests
 
@@ -58,49 +58,68 @@ openCatalogEl()
 
 /*функционал аккордеона*/
 
-function accordion() {
-  let interval = null;
-  document.querySelectorAll('.accordion__item').forEach(el => {
-    el.querySelector('.accordion__row').addEventListener('click', () => {
-      if (!el.classList.contains('accordion_action') && document.querySelector('.accordion_action')) {
-        document.querySelectorAll('.accordion_action').forEach(el => {
-          el.classList.remove('accordion_action');
-          const value = el.querySelector('.accordion__row-value');
-          const valueList = el.querySelector('.accordion__value');
+// function accordion() {
+//   let interval = null;
+//   document.querySelectorAll('.accordion__item').forEach(el => {
+//     el.querySelector('.accordion__row').addEventListener('click', () => {
+//       if (!el.classList.contains('accordion_action') && document.querySelector('.accordion_action')) {
+//         document.querySelectorAll('.accordion_action').forEach(el => {
+//           el.classList.remove('accordion_action');
+//           const value = el.querySelector('.accordion__row-value');
+//           const valueList = el.querySelector('.accordion__value');
 
-          value.style.maxHeight = null;
+//           value.style.maxHeight = null;
 
-          if (valueList.style.visibility === 'visible') {
-            interval = setTimeout(() => {
-              valueList.style.visibility = 'hidden';
-            }, 100);
-          }
-        })
-      }
+//           if (valueList.style.visibility === 'visible') {
+//             interval = setTimeout(() => {
+//               valueList.style.visibility = 'hidden';
+//             }, 100);
+//           }
+//         })
+//       }
 
-      el.classList.toggle('accordion_action');
+//       el.classList.toggle('accordion_action');
 
-      const valueList = el.querySelector('.accordion__value');
-      const value = el.querySelector('.accordion__row-value');
+//       const valueList = el.querySelector('.accordion__value');
+//       const value = el.querySelector('.accordion__row-value');
 
-      if (valueList.style.visibility === 'visible') {
-        interval = setTimeout(() => {
-          valueList.style.visibility = 'hidden';
-        }, 100);
-      } else {
-        valueList.style.visibility = 'visible';
-      }
+//       if (valueList.style.visibility === 'visible') {
+//         interval = setTimeout(() => {
+//           valueList.style.visibility = 'hidden';
+//         }, 100);
+//       } else {
+//         valueList.style.visibility = 'visible';
+//       }
 
-      if (value.style.maxHeight){
-        value.style.maxHeight = null;
-      } else {
-        value.style.maxHeight = value.scrollHeight + "px";
-      }
-    })
-  })
-}
+//       if (value.style.maxHeight){
+//         value.style.maxHeight = null;
+//       } else {
+//         value.style.maxHeight = value.scrollHeight + "px";
+//       }
+//     })
+//   })
+// }
 
-accordion()
+// accordion()
+
+document.querySelectorAll('.tabs-nav__btn').forEach(function(tabsBtn){
+  tabsBtn.addEventListener('click', function(e){
+    const path = e.currentTarget.dataset.path;
+    document.querySelectorAll('.tabs-nav__btn').forEach(function(btn){
+btn.classList.remove('tabs-nav__btn--active')});
+    e.currentTarget.classList.add('tabs-nav__btn--active');
+document.querySelectorAll('.tabs-item').forEach(function(tabsBtn){
+tabsBtn.classList.remove('tabs-item--active')});
+document.querySelector(`[data-target="${path}"]`).classList.add('tabs-item--active');
+ });
+});
+
+$(".accordion-list").accordion({
+  heightStyle: "content",
+  active: true,
+  collapsible: true,
+  icons: false
+});
 
 
 // form
@@ -166,5 +185,13 @@ document.querySelector('.header-bottom__btns-mobil').addEventListener('click', f
   document.querySelector('.bottom-btns').classList.toggle('header-bottom__btns_active')
   document.querySelector('.header-bottom__btns-mobil').classList.toggle('header-bottom__btns-mobil_active')
   document.querySelector('.header__bottom').classList.toggle('header__bottom_active')
+});
+
+
+const element = document.querySelector('select');
+const choices = new Choices(element, {
+  searchEnabled: false,
+  itemSelectText: '',
+  shouldSort: false,
 });
 
