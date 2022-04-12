@@ -337,11 +337,11 @@ body {
   transition: all .3s ease-in-out;
 }
 
-@media screen and (any-hover: hover) {
-  .form-search__btn-search:hover svg path {
-    stroke: var(--color-primary-light);
-  }
+
+.form-search__btn-search:hover svg path {
+  stroke: var(--color-primary-light);
 }
+
 
 .form-search__btn-search:focus-visible svg path {
   stroke: var(--color-primary-light);
@@ -677,7 +677,7 @@ body {
   height: 48px;
   background-image: url("../img/broadcast-play-button.svg");
   margin-top: 6px;
-  transition: all .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
 .podcasts__list-item-9,
@@ -1385,6 +1385,11 @@ path {
   background-color: var(--color-primary-shade);
 }
 
+.playlists-content:active .playlists-content__subtitle,
+.playlists-content:active .playlists-content__descr {
+  color: var(--color-white);
+}
+
 .playlists-content:active svg {
   transform: scale(1.17);
   opacity: 1;
@@ -1834,6 +1839,7 @@ path {
   padding-left: 22px;
   padding-top: 3px;
   cursor: pointer;
+  transition: color .3s ease-in-out;
 }
 
 .about-us__checkbox {
@@ -1879,7 +1885,7 @@ path {
 
 .js-validate-error-label {
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 32px;
 }
 
@@ -2084,6 +2090,10 @@ path {
   background-image: url("../img/broadcast-play-button-active.svg");
 }
 
+.podcasts__social-btn svg path {
+  transition: all .3s ease-in-out;
+}
+
 @media screen and (any-hover: hover) {
   .podcasts__social-btn:hover {
     color: var(--color-primary);
@@ -2096,23 +2106,22 @@ path {
   }
 }
 
-.podcasts__social-btn:hover svg path {
-  transition: all .3s ease-in-out;
-}
-
 .podcasts__social-btn:focus-visible {
   outline: none;
-  color: white;
+  color: var(--color-white);
   background: var(--color-primary-light);
 }
 
 .podcasts__social-btn:focus-visible svg path {
-  transition: all .3s ease-in-out;
   fill: var(--color-white);
 }
 
+.podcasts__social-btn:active {
+  color: var(--color-primary-shade);
+}
+
 .podcasts__social-btn:active svg path {
-  transition: all .3s ease-in-out;
+  fill: var(--color-primary-shade);
 }
 
 @media screen and (any-hover: hover) {
@@ -2244,6 +2253,20 @@ path {
   border-color: var(--color-primary);
   background: var(--color-shade-gray);
   outline: none;
+}
+
+.form-container__label {
+  transition: color .3s ease-in-out;
+}
+
+@media screen and (any-hover: hover) {
+.form-container__label:hover {
+  color: var(--color-primary);
+ }
+}
+.form-container__label:focus-visible {
+  outline: none;
+  color: var(--color-primary);
 }
 
 .be-with-us__link:hover path {
@@ -2406,6 +2429,13 @@ path {
   color: var(--color-white);
 }
 
+.mobile-slider__btn:active {
+  border-color: var(--color-primary-shade);
+  background: var(--color-primary-shade);
+  color: var(--color-white);
+}
+
+
 .playlists__list-item:focus-visible {
   outline: none;
 }
@@ -2443,4 +2473,40 @@ path {
 
 .autor__link-item-link:active svg path {
   fill: var(--color-primary-shade);
+}
+
+.about-us__label .about-us__checkbox + span {
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (any-hover: hover) {
+  .about-us__label:hover {
+    color: var(--color-primary);
+  }
+}
+
+@media screen and (any-hover: hover) {
+  .about-us__label:hover .about-us__checkbox + span {
+    background: var(--color-light-color-40);
+    border-color: var(--color-primary);
+  }
+}
+
+.about-us__label:focus-visible {
+  outline: none;
+  color: var(--color-primary-light);
+}
+
+.about-us__label:focus-visible .about-us__checkbox + span {
+  background: var(--color-light-color-40);
+  border-color: var(--color-primary-light);
+  outline: none;
+}
+
+.about-us__label:active {
+  color: var(--color-primary-shade);
+}
+
+.about-us__label:active .about-us__checkbox + span {
+  border-color: var(--color-primary-shade);
 }
