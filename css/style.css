@@ -1492,6 +1492,10 @@ path {
   color: var(--color-black);
 }
 
+.form-container:focus-visible {
+  outline: none;
+}
+
 .form-btn {
   position: relative;
   -webkit-appearance: none;
