@@ -1,0 +1,10 @@
+## Interface: 20503
+## Title: IceHUD |cff7fff7f-Options-|r
+## Author: Parnic
+## Version: 1.13.12
+## Notes: Configuration options for IceHUD
+## OptionalDeps: AceGUI-3.0-SharedMediaWidgets
+## Dependencies: IceHUD
+## LoadOnDemand: 1
+
+Options.lua

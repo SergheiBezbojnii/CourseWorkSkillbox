@@ -1,0 +1,3652 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 68,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кк:1808:CHANNEL:6|h|cfff48cbaКк|r|h|cffd8d8d8]|r: начинающий ретрик ищу тиму на арену любой состав",
+					["serverTime"] = 1635700176,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						251, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кк:1809:CHANNEL:6|h|cfff48cbaКк|r|h|cffd8d8d8]|r: начинающий ретрик ищу тиму на арену любой состав",
+					["serverTime"] = 1635700176,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						251, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1810:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700176,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.455,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Петруля-Пламегор:1811:CHANNEL:6|h|cff3fc6eaПетруля|r|h|cffd8d8d8]|r: в Груула  нужны Танки Хилы  и ДД/РДД (маг для танкинга)   (анрол 1 шмотка) Сум есть",
+					["serverTime"] = 1635700176,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						132, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.455,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Теттива-Пламегор:1812:CHANNEL:6|h|cffaad372Теттива|r|h|cffd8d8d8]|r: кто на |Hquestie:10921:Player-4474-037A8E45|h|cFF40C040[|r|cFF40C040[65+] Тероккарантул|r|cFF40C040]|r|h",
+					["serverTime"] = 1635700176,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						237, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.455,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:38]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1813:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700176,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.455,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1814:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Анцапфа-Пламегор:1815:CHANNEL:6|h|cffaad372Анцапфа|r|h|cffd8d8d8]|r: нужен танк в храм",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Депрессо-Пламегор:1816:CHANNEL:6|h|cfffff468Депрессо|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tТопи(Гер)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tНид Танк, Хилл(пустота анрол)",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1817:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326436.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Депрессо-Пламегор:1818:CHANNEL:6|h|cfffff468Депрессо|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tТопи(Гер)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tНид Танк, Хилл(пустота анрол)",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.022,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1819:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.022,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Бошкарь-Пламегор:1820:CHANNEL:6|h|cff3fc6eaБошкарь|r|h|cffd8d8d8]|r: НА ВСАДНИКА В МАО НИД ТАНК ХИЛ",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.022,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1821:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.222,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:39]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Депрессо-Пламегор:1822:CHANNEL:6|h|cfffff468Депрессо|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tТопи(Гер)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tНид Танк, Хилл(пустота анрол)",
+					["serverTime"] = 1635700177,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.222,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Депрессо-Пламегор:1823:CHANNEL:6|h|cfffff468Депрессо|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tТопи(Гер)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tНид Танк, Хилл(пустота анрол)",
+					["serverTime"] = 1635700178,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.788,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Бошкарь-Пламегор:1824:CHANNEL:6|h|cff3fc6eaБошкарь|r|h|cffd8d8d8]|r: НА ВСАДНИКА В МАО НИД ТАНК ХИЛ",
+					["serverTime"] = 1635700178,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.788,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Депрессо-Пламегор:1825:CHANNEL:6|h|cfffff468Депрессо|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tТопи(Гер)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tНид Танк, Хилл(пустота анрол)",
+					["serverTime"] = 1635700178,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.788,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Анцапфа-Пламегор:1826:CHANNEL:6|h|cffaad372Анцапфа|r|h|cffd8d8d8]|r: нужен танк в храм",
+					["serverTime"] = 1635700178,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326437.788,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Депрессо-Пламегор:1827:CHANNEL:6|h|cfffff468Депрессо|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tТопи(Гер)|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|tНид Танк, Хилл(пустота анрол)",
+					["serverTime"] = 1635700178,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.057,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:40]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1828:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700178,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.057,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Акосс-Пламегор:1829:CHANNEL:6|h|cffff7c0aАкосс|r|h|cffd8d8d8]|r: на ГРУЛА нид Танк,Хил и дд/рдд(1 Анрол)++",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.724,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1830:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.724,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1831:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.724,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Анцапфа-Пламегор:1832:CHANNEL:6|h|cffaad372Анцапфа|r|h|cffd8d8d8]|r: нужен танк в храм",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.724,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1833:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.924,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1834:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326438.924,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Бошкарь-Пламегор:1835:CHANNEL:6|h|cff3fc6eaБошкарь|r|h|cffd8d8d8]|r: НА ВСАДНИКА В МАО НИД ТАНК ХИЛ",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326439.324,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:41]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Теттива-Пламегор:1836:CHANNEL:6|h|cffaad372Теттива|r|h|cffd8d8d8]|r: кто на |Hquestie:10921:Player-4474-037A8E45|h|cFF40C040[|r|cFF40C040[65+] Тероккарантул|r|cFF40C040]|r|h",
+					["serverTime"] = 1635700179,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						237, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326439.324,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:42]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Бошкарь-Пламегор:1837:CHANNEL:6|h|cff3fc6eaБошкарь|r|h|cffd8d8d8]|r: НА ВСАДНИКА В МАО НИД ТАНК ХИЛ",
+					["serverTime"] = 1635700180,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326440.324,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:42]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1838:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700180,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326440.324,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:42]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1839:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700180,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326440.324,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:43]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Курбанаркан:1840:CHANNEL:6|h|cff3fc6eaКурбанаркан|r|h|cffd8d8d8]|r: На всадника без кд нужен танк, хилл, ДД |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1635700181,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						253, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326440.59,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:43]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Петруля-Пламегор:1841:CHANNEL:6|h|cff3fc6eaПетруля|r|h|cffd8d8d8]|r: в Груула  нужны Танки Хилы  и ДД/РДД (маг для танкинга)   (анрол 1 шмотка) Сум есть",
+					["serverTime"] = 1635700181,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						132, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326441.257,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:44]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кунзо-Пламегор:1842:CHANNEL:6|h|cffffffffКунзо|r|h|cffd8d8d8]|r: маг на аое кач в ЛИ ласт слот",
+					["serverTime"] = 1635700182,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						203, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326442.424,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:44]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кунзо-Пламегор:1843:CHANNEL:6|h|cffffffffКунзо|r|h|cffd8d8d8]|r: маг на аое кач в ЛИ ласт слот",
+					["serverTime"] = 1635700182,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						203, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326442.424,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кунзо-Пламегор:1844:CHANNEL:6|h|cffffffffКунзо|r|h|cffd8d8d8]|r: маг на аое кач в ЛИ ласт слот",
+					["serverTime"] = 1635700183,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						203, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326442.69,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1845:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700183,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326442.69,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1846:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700183,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326442.89,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Нубчиха-Пламегор:1847:CHANNEL:6|h|cff8787edНубчиха|r|h|cffd8d8d8]|r: Разрушенные залы ОБ нид 1 танк 2рдд",
+					["serverTime"] = 1635700183,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						249, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326443.39,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Вальтерка-Пламегор:1848:CHANNEL:6|h|cff3fc6eaВальтерка|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ГОЛД БИД |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ТК на КЕЛЯ сегодня в 22:00 Нужны Лок Хант/шаман (любой) Рдру Хпал",
+					["serverTime"] = 1635700183,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						241, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326443.39,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:45]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Вальтерка-Пламегор:1849:CHANNEL:6|h|cff3fc6eaВальтерка|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ГОЛД БИД |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ТК на КЕЛЯ сегодня в 22:00 Нужны Лок Хант/шаман (любой) Рдру Хпал",
+					["serverTime"] = 1635700183,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						241, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326443.39,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:46]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Тоттем:1850:CHANNEL:6|h|cff0070ddТоттем|r|h|cffd8d8d8]|r: @Flamegor PvP |cffffffff|Hurl:discord.gg|h[discord.gg]|h|r/kpcrPKFBGK ОКО\\АРАТИ нужен 1вар 250+реса",
+					["serverTime"] = 1635700184,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326443.924,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:46]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Тотемамама-Пламегор:1851:CHANNEL:6|h|cff0070ddТотемамама|r|h|cffd8d8d8]|r: Ищу АфК кач в страте",
+					["serverTime"] = 1635700184,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						124, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326443.924,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Наганн:1852:CHANNEL:6|h|cffaad372Наганн|r|h|cffd8d8d8]|r: В РАЗРУШЕННЫЕ ЗАЛЫ нужен хилл и 1 ДД МАГ ЛОК!!!!!(ОБ)",
+					["serverTime"] = 1635700186,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						257, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326445.824,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Наганн-Пламегор:1853:CHANNEL:6|h|cffaad372Наганн|r|h|cffd8d8d8]|r: В РАЗРУШЕННЫЕ ЗАЛЫ нужен хилл и 1 ДД МАГ ЛОК!!!!!(ОБ)",
+					["serverTime"] = 1635700186,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						257, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326446.424,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:48]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Минникх-Пламегор:1854:CHANNEL:6|h|cfff48cbaМинникх|r|h|cffd8d8d8]|r: Кузня крови гер до 1ого босса нид хил 2 дд, тупо 1 босс",
+					["serverTime"] = 1635700186,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326446.424,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Минникх-Пламегор:1855:CHANNEL:6|h|cfff48cbaМинникх|r|h|cffd8d8d8]|r: Кузня крови гер до 1ого босса нид хил 2 дд, тупо 1 босс",
+					["serverTime"] = 1635700187,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326446.757,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кастырь:1856:CHANNEL:6|h|cff8787edКастырь|r|h|cffd8d8d8]|r: АРЕНАКАП 2X2 - моя тима 10 игр",
+					["serverTime"] = 1635700187,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326447.49,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:49]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метзгер:1857:CHANNEL:6|h|cfffff468Метзгер|r|h|cffd8d8d8]|r: Рога ищу пати в ЧерныеТопи ОБ",
+					["serverTime"] = 1635700187,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						261, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326447.49,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:50]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1858:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700188,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326447.824,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:50]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Бошкарь-Пламегор:1859:CHANNEL:6|h|cff3fc6eaБошкарь|r|h|cffd8d8d8]|r: НА ВСАДНИКА В МАО НИД ТАНК ХИЛ",
+					["serverTime"] = 1635700188,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326448.224,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:50]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Наганн-Пламегор:1860:CHANNEL:6|h|cffaad372Наганн|r|h|cffd8d8d8]|r: В РАЗРУШЕННЫЕ ЗАЛЫ нужен хилл и 1 ДД МАГ ЛОК!!!!!(ОБ)",
+					["serverTime"] = 1635700188,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						257, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326448.224,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кианри-Пламегор:1861:CHANNEL:6|h|cffaad372Кианри|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tВ ЧЕРНЫЕ ТОПИ (ОБ) нужен ТАНК/ДД.|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["serverTime"] = 1635700189,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						159, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326448.59,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кианри-Пламегор:1862:CHANNEL:6|h|cffaad372Кианри|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tВ ЧЕРНЫЕ ТОПИ (ОБ) нужен ТАНК/ДД.|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["serverTime"] = 1635700189,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						159, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326448.89,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Бошкарь-Пламегор:1863:CHANNEL:6|h|cff3fc6eaБошкарь|r|h|cffd8d8d8]|r: НА ВСАДНИКА В МАО НИД ТАНК ХИЛ",
+					["serverTime"] = 1635700189,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326449.224,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:51]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кианри-Пламегор:1864:CHANNEL:6|h|cffaad372Кианри|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tВ ЧЕРНЫЕ ТОПИ (ОБ) нужен ТАНК/ДД.|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["serverTime"] = 1635700189,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						159, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326449.524,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:52]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1865:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700190,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326449.924,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:52]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Наганн-Пламегор:1866:CHANNEL:6|h|cffaad372Наганн|r|h|cffd8d8d8]|r: В РАЗРУШЕННЫЕ ЗАЛЫ нужен хилл и 1 ДД МАГ ЛОК!!!!!(ОБ)",
+					["serverTime"] = 1635700190,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						257, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326449.924,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:52]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Тоттем-Пламегор:1867:CHANNEL:6|h|cff0070ddТоттем|r|h|cffd8d8d8]|r: @Flamegor PvP |cffffffff|Hurl:discord.gg|h[discord.gg]|h|r/kpcrPKFBGK ОКО\\АРАТИ нужен 1вар 250+реса",
+					["serverTime"] = 1635700190,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326450.357,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:53]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1868:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700191,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326450.724,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:53]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1869:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700191,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326450.724,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:53]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1870:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700191,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326450.724,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:53]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Тоттем-Пламегор:1871:CHANNEL:6|h|cff0070ddТоттем|r|h|cffd8d8d8]|r: @Flamegor PvP |cffffffff|Hurl:discord.gg|h[discord.gg]|h|r/kpcrPKFBGK ОКО\\АРАТИ нужен 1вар 250+реса",
+					["serverTime"] = 1635700191,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326450.99,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Бошкарь-Пламегор:1872:CHANNEL:6|h|cff3fc6eaБошкарь|r|h|cffd8d8d8]|r: НА ВСАДНИКА В МАО НИД ТАНК ХИЛ",
+					["serverTime"] = 1635700192,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326451.824,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Вписочка-Пламегор:1873:CHANNEL:6|h|cffff7c0aВписочка|r|h|cffd8d8d8]|r: |Hquestie:10408:Player-4474-03924D3B|h|cFFFFFF00[|r|cFFFFFF00[70+] Соправитель Салхадаар|r|cFFFFFF00]|r|h хилл дд",
+					["serverTime"] = 1635700192,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326451.824,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:54]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1874:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700192,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326451.824,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:55]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1875:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700193,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326452.657,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ириика-Пламегор:1748:CHANNEL:6|h|cfff48cbaИриика|r|h|cffd8d8d8]|r: черные топи (гер) нид 1 дд (ненужка танку / пустота хилу)",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						211, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326416.766,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1749:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326416.766,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1750:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326416.992,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1751:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326416.992,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1752:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326416.992,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Дикийалекс-Пламегор:1753:CHANNEL:6|h|cff3fc6eaДикийалекс|r|h|cffd8d8d8]|r: В КАРАЖАН ГОЛДБИТ НУЖЕН ПАЛАДИН ( ВТОРОЙ ТАНК ) 2 ХИЛА  И БАЕРЫ",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						140, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326417.298,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Пеструша-Пламегор:1754:CHANNEL:6|h|cffff7c0aПеструша|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t ГИЛЬДИЯ КОМИТЕТ 300 ДЛЯ УСИЛЕНИЯ СОСТАВА ЭЛЕМ,РШАМ,,ЛОК,СУРВ|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t РТ 20 мск |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ПРОГРЕСС  9\\10|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						80, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326417.298,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:19]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ириика-Пламегор:1755:CHANNEL:6|h|cfff48cbaИриика|r|h|cffd8d8d8]|r: черные топи (гер) нид 1 дд (ненужка танку / пустота хилу)",
+					["serverTime"] = 1635700157,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						211, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326417.298,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Пеструша-Пламегор:1756:CHANNEL:6|h|cffff7c0aПеструша|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_7:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_4:0|t ГИЛЬДИЯ КОМИТЕТ 300 ДЛЯ УСИЛЕНИЯ СОСТАВА ЭЛЕМ,РШАМ,,ЛОК,СУРВ|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t РТ 20 мск |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ПРОГРЕСС  9\\10|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t",
+					["serverTime"] = 1635700158,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						80, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326417.586,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:20]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Киць-Пламегор:1757:CHANNEL:6|h|cfff48cbaКиць|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00 Паровое подземелье [об.] фарм репы|r|cffffffff>|r : хил, дд, руда анролл,  /ш инфо",
+					["serverTime"] = 1635700158,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326418.527,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:23]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Акхарра-Пламегор:1758:CHANNEL:6|h|cffc69b6dАкхарра|r|h|cffd8d8d8]|r: Сейчас каражан голдбид Бис шмот от 400г не бис от 200 + в пм (баеры дд/рдд хил танк)",
+					["serverTime"] = 1635700161,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						74, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326421.41,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:24]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Петруля-Пламегор:1759:CHANNEL:6|h|cff3fc6eaПетруля|r|h|cffd8d8d8]|r: в Груула  нужны Танки Хилы  и ДД/РДД (маг для танкинга)   (анрол 1 шмотка) Сум есть",
+					["serverTime"] = 1635700162,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						132, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326421.637,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:25]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1760:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700163,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326423.026,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1761:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700164,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326423.565,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1762:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700164,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.112,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1763:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700164,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.112,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Джжы:1764:CHANNEL:6|h|cff0070ddДжжы|r|h|cffd8d8d8]|r: 2 пирл ищут бучт ОП!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+					["serverTime"] = 1635700164,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						243, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.366,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Альбастру-Пламегор:1765:CHANNEL:6|h|cffffffffАльбастру|r|h|cffd8d8d8]|r: ПАРОВОЕ ОБЫЧ танк, дд",
+					["serverTime"] = 1635700164,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						161, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.366,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Картис-Пламегор:1766:CHANNEL:6|h|cff3fc6eaКартис|r|h|cffd8d8d8]|r: аое пати Разрушенные залы (Об) лок",
+					["serverTime"] = 1635700164,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.366,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:26]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1767:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700164,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.366,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1768:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700165,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.589,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Картис-Пламегор:1769:CHANNEL:6|h|cff3fc6eaКартис|r|h|cffd8d8d8]|r: аое пати Разрушенные залы (Об) лок",
+					["serverTime"] = 1635700165,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.589,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Синабель-Пламегор:1770:CHANNEL:6|h|cffffffffСинабель|r|h|cffd8d8d8]|r: ЗФ НИД ТАНК",
+					["serverTime"] = 1635700165,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.589,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Картис-Пламегор:1771:CHANNEL:6|h|cff3fc6eaКартис|r|h|cffd8d8d8]|r: аое пати Разрушенные залы (Об) лок",
+					["serverTime"] = 1635700165,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.792,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Грейвмен-Пламегор:1772:CHANNEL:6|h|cfffff468Грейвмен|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Каражан|r|cffffffff>|r нид Хил, Энх, Ретрик. Ролл МС/ОС (без анролов). Статы и спек в ПМ.",
+					["serverTime"] = 1635700165,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						185, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326424.792,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Грейвмен-Пламегор:1773:CHANNEL:6|h|cfffff468Грейвмен|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Каражан|r|cffffffff>|r нид Хил, Энх, Ретрик. Ролл МС/ОС (без анролов). Статы и спек в ПМ.",
+					["serverTime"] = 1635700165,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						185, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326425.176,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:27]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Несоленая-Пламегор:1774:CHANNEL:6|h|cffff7c0aНесоленая|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t Гильдия |cffffffff<|r|cff00ff00Накрутка Вайпов|r|cffffffff>|r Лут ДКП/РТ 21.00 Нужны: ХПал/Ретри, Шаман Хил/Элем, Сова |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
+					["serverTime"] = 1635700165,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						221, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326425.43,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Несоленая-Пламегор:1775:CHANNEL:6|h|cffff7c0aНесоленая|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t Гильдия |cffffffff<|r|cff00ff00Накрутка Вайпов|r|cffffffff>|r Лут ДКП/РТ 21.00 Нужны: ХПал/Ретри, Шаман Хил/Элем, Сова |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t",
+					["serverTime"] = 1635700166,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						221, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326425.803,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Петруля-Пламегор:1776:CHANNEL:6|h|cff3fc6eaПетруля|r|h|cffd8d8d8]|r: в Груула  нужны Танки Хилы  и ДД/РДД (маг для танкинга)   (анрол 1 шмотка) Сум есть",
+					["serverTime"] = 1635700166,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						132, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326425.803,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1777:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700166,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326426.068,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:28]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Джжы-Пламегор:1778:CHANNEL:6|h|cff0070ddДжжы|r|h|cffd8d8d8]|r: 2 пирл ищут бучт ОП!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+					["serverTime"] = 1635700166,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						243, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326426.534,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ириика-Пламегор:1779:CHANNEL:6|h|cfff48cbaИриика|r|h|cffd8d8d8]|r: черные топи (гер) нид 1 дд (ненужка танку / пустота хилу)",
+					["serverTime"] = 1635700167,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						211, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326426.534,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1780:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700167,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326426.534,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Минникх:1781:CHANNEL:6|h|cfff48cbaМинникх|r|h|cffd8d8d8]|r: Кузня крови гер до 1ого босса нид хил 2 дд, тупо 1 босс",
+					["serverTime"] = 1635700167,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326427.042,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Джжы-Пламегор:1782:CHANNEL:6|h|cff0070ddДжжы|r|h|cffd8d8d8]|r: 2 пирл ищут бучт ОП!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+					["serverTime"] = 1635700167,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						243, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326427.042,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:29]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ириика-Пламегор:1783:CHANNEL:6|h|cfff48cbaИриика|r|h|cffd8d8d8]|r: черные топи (гер) нид 1 дд (ненужка танку / пустота хилу)",
+					["serverTime"] = 1635700167,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						211, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326427.302,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:30]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Минникх-Пламегор:1784:CHANNEL:6|h|cfff48cbaМинникх|r|h|cffd8d8d8]|r: Кузня крови гер до 1ого босса нид хил 2 дд, тупо 1 босс",
+					["serverTime"] = 1635700168,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326428.142,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:30]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Шокопати-Пламегор:1785:CHANNEL:6|h|cff3fc6eaШокопати|r|h|cffd8d8d8]|r: маг 310 реса ищу Рогу в 2/2",
+					["serverTime"] = 1635700168,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326428.376,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:30]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Минникх-Пламегор:1786:CHANNEL:6|h|cfff48cbaМинникх|r|h|cffd8d8d8]|r: Кузня крови гер до 1ого босса нид хил 2 дд, тупо 1 босс",
+					["serverTime"] = 1635700168,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326428.376,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:31]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Доберс-Пламегор:1787:CHANNEL:6|h|cffff7c0aДоберс|r|h|cffd8d8d8]|r: Нижетопь (ГЕР) Нид танк, хил",
+					["serverTime"] = 1635700169,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						136, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326429.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Петруля-Пламегор:1788:CHANNEL:6|h|cff3fc6eaПетруля|r|h|cffd8d8d8]|r: в Груула  нужны Танки Хилы  и ДД/РДД (маг для танкинга)   (анрол 1 шмотка) Сум есть",
+					["serverTime"] = 1635700170,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						132, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326429.748,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:32]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Доберс-Пламегор:1789:CHANNEL:6|h|cffff7c0aДоберс|r|h|cffd8d8d8]|r: Нижетопь (ГЕР) Нид танк, хил",
+					["serverTime"] = 1635700170,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						136, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326430.304,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:33]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Доберс-Пламегор:1790:CHANNEL:6|h|cffff7c0aДоберс|r|h|cffd8d8d8]|r: Нижетопь (ГЕР) Нид танк, хил",
+					["serverTime"] = 1635700171,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						136, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326431.264,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1791:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700172,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326431.846,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1792:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700172,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326431.846,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Метамаск-Пламегор:1793:CHANNEL:6|h|cfff48cbaМетамаск|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t КРЕПОСТЬ БУРЬ - (Сейчас) 1 анрол, Нид : Ршам,Рдру,1 Лок 22/25|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["serverTime"] = 1635700172,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326432.154,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:34]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Доберс-Пламегор:1794:CHANNEL:6|h|cffff7c0aДоберс|r|h|cffd8d8d8]|r: Нижетопь (ГЕР) Нид танк, хил",
+					["serverTime"] = 1635700172,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						136, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326432.379,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Удбурт-Пламегор:1795:CHANNEL:6|h|cfffff468Удбурт|r|h|cffd8d8d8]|r: МЕХАНАР ГЕР НИД ТАНК",
+					["serverTime"] = 1635700173,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326432.738,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:35]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Доберс-Пламегор:1796:CHANNEL:6|h|cffff7c0aДоберс|r|h|cffd8d8d8]|r: Нижетопь (ГЕР) Нид танк, хил",
+					["serverTime"] = 1635700173,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						136, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326433.415,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:36]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Трансер-Пламегор:1797:CHANNEL:6|h|cff0070ddТрансер|r|h|cffd8d8d8]|r: в Каражан нид ппал/мишка",
+					["serverTime"] = 1635700174,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						173, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326434.122,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:36]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Кумысио-Пламегор:1798:CHANNEL:6|h|cffff7c0aКумысио|r|h|cffd8d8d8]|r: В разрушенные залы на фарм репы Маг 70 и го",
+					["serverTime"] = 1635700174,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						169, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326434.355,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Емпеченки:1799:CHANNEL:6|h|cffaad372Емпеченки|r|h|cffd8d8d8]|r: Добор в гильдейский статик по классам: Элем/хант/маг/энх/Ппал. (20:00 по МСК) ССК 4/6, ТК1/4. лут ЕП/ГП. Играем ради удовольствия!",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						247, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326434.622,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Доберс-Пламегор:1800:CHANNEL:6|h|cffff7c0aДоберс|r|h|cffd8d8d8]|r: Нижетопь (ГЕР) Нид танк, хил",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						136, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326434.622,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Ириика-Пламегор:1801:CHANNEL:6|h|cfff48cbaИриика|r|h|cffd8d8d8]|r: черные топи (гер) нид 1 дд (ненужка танку / пустота хилу)",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						211, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.088,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Теттива-Пламегор:1802:CHANNEL:6|h|cffaad372Теттива|r|h|cffd8d8d8]|r: кто на |Hquestie:10921:Player-4474-037A8E45|h|cFF40C040[|r|cFF40C040[65+] Тероккарантул|r|cFF40C040]|r|h",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						237, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.288,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Нубчиха:1803:CHANNEL:6|h|cff8787edНубчиха|r|h|cffd8d8d8]|r: Разрушенные залы ОБ нид 1 танк 2рдд",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						249, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.288,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Нубчиха:1804:CHANNEL:6|h|cff8787edНубчиха|r|h|cffd8d8d8]|r: Разрушенные залы ОБ нид 1 танк 2рдд",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						249, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.288,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Нубчиха-Пламегор:1805:CHANNEL:6|h|cff8787edНубчиха|r|h|cffd8d8d8]|r: Разрушенные залы ОБ нид 1 танк 2рдд",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						249, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.288,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Нубчиха-Пламегор:1806:CHANNEL:6|h|cff8787edНубчиха|r|h|cffd8d8d8]|r: Разрушенные залы ОБ нид 1 танк 2рдд",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						249, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.522,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:37]|h|r |Hchannel:channel:6|h[6] |h|cffd8d8d8[|r|Hplayer:Нубчиха-Пламегор:1807:CHANNEL:6|h|cff8787edНубчиха|r|h|cffd8d8d8]|r: Разрушенные залы ОБ нид 1 танк 2рдд",
+					["serverTime"] = 1635700175,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						249, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326435.522,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame12"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:56:16]|h|r [W To] |cffd8d8d8[|r|Hplayer:Растрахан-Пламегор:816:WHISPER:РАСТРАХАН-ПЛАМЕГОР|h|cffd8d83f70|r:|cff0070ddРастрахан|r|h|cffd8d8d8]|r: ку) подубишь |cff8787edстрим|r на келя ?",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325633.753,
+					["serverTime"] = 1635699374,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						222, -- [3]
+						223, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:57:15]|h|r [W From] |cffd8d8d8[|r|Hplayer:Растрахан-Пламегор:977:WHISPER:РАСТРАХАН-ПЛАМЕГОР|h|cffd8d83f70|r:|cff0070ddРастрахан|r|h|cffd8d8d8]|r: dhe,bk",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325693.007,
+					["serverTime"] = 1635699433,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						222, -- [3]
+						234, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:57:19]|h|r [W From] |cffd8d8d8[|r|Hplayer:Растрахан-Пламегор:989:WHISPER:РАСТРАХАН-ПЛАМЕГОР|h|cffd8d83f70|r:|cff0070ddРастрахан|r|h|cffd8d8d8]|r: врубил",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325696.64,
+					["serverTime"] = 1635699437,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						222, -- [3]
+						234, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:57:20]|h|r [W To] |cffd8d8d8[|r|Hplayer:Растрахан-Пламегор:996:WHISPER:РАСТРАХАН-ПЛАМЕГОР|h|cffd8d83f70|r:|cff0070ddРастрахан|r|h|cffd8d8d8]|r: спс",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325698.355,
+					["serverTime"] = 1635699438,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						222, -- [3]
+						223, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+			},
+			["headIndex"] = 4,
+			["maxElements"] = 128,
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame11"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:54:33]|h|r [W To] |cffd8d8d8[|r|Hplayer:Ретрибунка-Пламегор:484:WHISPER:РЕТРИБУНКА-ПЛАМЕГОР|h|cffd8d83f70|r:|cfff48cbaРетрибунка|r|h|cffd8d8d8]|r: как аддон на общую сумку называется ?",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325530.729,
+					["serverTime"] = 1635699271,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						164, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:03]|h|r [W From] |cffd8d8d8[|r|Hplayer:Ретрибунка-Пламегор:587:WHISPER:РЕТРИБУНКА-ПЛАМЕГОР|h|cffd8d83f70|r:|cfff48cbaРетрибунка|r|h|cffd8d8d8]|r: Combuctor",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325560.832,
+					["serverTime"] = 1635699301,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						164, -- [3]
+						180, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:07]|h|r [W To] |cffd8d8d8[|r|Hplayer:Ретрибунка-Пламегор:603:WHISPER:РЕТРИБУНКА-ПЛАМЕГОР|h|cffd8d83f70|r:|cfff48cbaРетрибунка|r|h|cffd8d8d8]|r: отдуши",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325564.841,
+					["serverTime"] = 1635699305,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						164, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:08]|h|r [W From] |cffd8d8d8[|r|Hplayer:Ретрибунка-Пламегор:610:WHISPER:РЕТРИБУНКА-ПЛАМЕГОР|h|cffd8d83f70|r:|cfff48cbaРетрибунка|r|h|cffd8d8d8]|r: вроде бы)",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1325566.445,
+					["serverTime"] = 1635699306,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						164, -- [3]
+						180, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+			},
+			["headIndex"] = 4,
+			["maxElements"] = 128,
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 109,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:32:52]|h|r Сообщение дня от гильдии: Привет! Не забывайте отмечаться в канале #анонсы в дискорде!",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699135,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:33:18]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Кимбококаин-Пламегор:682:CHANNEL:1|h|cffff7c0aКимбококаин|r|h|cffd8d8d8]|r: Логово Груула и Магтеридона    (Голд Бид)   Танк Мт   хилы и Дпс  (Пишем Зачем Идем)",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687196,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:33:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Злойпараш:694:CHANNEL:2|h|cfffff468Злойпараш|r|h|cffd8d8d8]|r: На Груула Ферал / Сова + Хил + МагТанк + РДД, 1 анрол на рогу, висп мейнстат",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687205,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:33:35]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Кимбококаин-Пламегор:706:CHANNEL:1|h|cffff7c0aКимбококаин|r|h|cffd8d8d8]|r: Логово Груула и Магтеридона    (Голд Бид)   Танк Мт   хилы и Дпс  (Пишем Зачем Идем)",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687213,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:33:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Чейзн:732:CHANNEL:2|h|cff0070ddЧейзн|r|h|cffd8d8d8]|r: Куплю кд |cff0070dd|Hitem:21845::::::::70:::::::::|h[Изначальная луноткань]|h|r у лунотканьщика!!!!",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687230,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:33:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Чейзн-Пламегор:733:CHANNEL:2|h|cff0070ddЧейзн|r|h|cffd8d8d8]|r: Куплю |cffffffff|Hitem:21877::::::::70:::::::::|h[Ткань Пустоты]|h|r много",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687231,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Гетреди:742:CHANNEL:2|h|cff0070ddГетреди|r|h|cffd8d8d8]|r: Гильдия \"Удар Отчима\" ищет людей в основной статик -  Ршам/Рдру РТ 19-30, ср,чт, все вопросы ПМ!",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687240,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Адскийсмех-Пламегор:753:CHANNEL:2|h|cff0070ddАдскийсмех|r|h|cffd8d8d8]|r: Продам |cffa335ee|Hitem:24276::::::::70:::::::::|h[Золотая чародейская нить]|h|r",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687248,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Дарккнесс-Пламегор:756:CHANNEL:2|h|cfff48cbaДарккнесс|r|h|cffd8d8d8]|r: ищу чантера",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687250,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Мастерсноу:758:CHANNEL:2|h|cff3fc6eaМастерсноу|r|h|cffd8d8d8]|r: фмаг лф рм 2v2",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687250,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Злойпараш-Пламегор:769:CHANNEL:2|h|cfffff468Злойпараш|r|h|cffd8d8d8]|r: На Груула Ферал / Сова + Хил + МагТанк + РДД, 1 анрол на рогу, висп мейнстат",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687255,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:38]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Лес Тероккар]|h.",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						96, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687276,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:38]|h|r |Hchannel:channel:2|h[2] |h Вы покинули канал |Hchannel:CHANNEL:2|h[2. Торговля: Город]|h.",
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						39, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687276,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:34:38]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Лес Тероккар]|h.",
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						100, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687276,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:35:12]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Сугоросан:877:CHANNEL:1|h|cff8787edСугоросан|r|h|cffd8d8d8]|r: дайте пати на 2й слой",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						113, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687310,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:35:16]|h|r |cffd8d8d8[|r|Hplayer:Слёзыдуши:880|h|cffd8d83f70|r:|cfff48cbaСлёзыдуши|r|h|cffd8d8d8]|r входит в игру.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687314,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:36:29]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Долина Призрачной Луны]|h.",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						96, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687387,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:36:29]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Долина Призрачной Луны]|h.",
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						100, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687387,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:36:41]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Фэрэдумнезеу-Пламегор:1080:GUILD|h|cffd8d83f70|r:|cfffff468Фэрэдумнезеу|r|h|cffd8d8d8]|r: есть пати на 2й слой? пожалуйста",
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						161, -- [3]
+						162, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+					["serverTime"] = 1635687399,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:36:47]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Наварх-Пламегор:1089:CHANNEL:1|h|cff0070ddНаварх|r|h|cffd8d8d8]|r: есть кто на |Hquestie:10578:Player-4474-0239EBA5|h|cFFFFFF00[|r|cFFFFFF00[70+] Код Проклятия – Вклад Борака|r|cFFFFFF00]|r|h +",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						163, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687405,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:36:57]|h|r Ваша добыча: |cffffffff|Hitem:23425::::::::70:::::::::|h[Адамантитовая руда]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687415,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:37:01]|h|r Ваша добыча: |cffffffff|Hitem:23425::::::::70:::::::::|h[Адамантитовая руда]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687419,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:37:02]|h|r Ваша добыча: |cff1eff00|Hitem:23079::::::::70:::::::::|h[Хризолит]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687420,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:37:06]|h|r Ваша добыча: |cffffffff|Hitem:23425::::::::70:::::::::|h[Адамантитовая руда]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687424,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:38:05]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Наварх-Пламегор:1242:CHANNEL:1|h|cff0070ddНаварх|r|h|cffd8d8d8]|r: есть кто на |Hquestie:10578:Player-4474-0239EBA5|h|cFFFFFF00[|r|cFFFFFF00[70+] Код Проклятия – Вклад Борака|r|cFFFFFF00]|r|h +",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						163, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687483,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:38:18]|h|r |cffd8d8d8[|r|Hplayer:Сугоросан:1270|h|cffa5a5a5Сугоросан|r|h|cffd8d8d8]|r предлагает вам присоединиться к группе.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687496,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:38:20]|h|r Сложность подземелья установлена на уровне \"Обычный\"",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687498,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:38:57]|h|r |cff8787edХокгера|r становится лидером группы.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687535,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:38:57]|h|r |cff8787edСугоросан|r покидает группу.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687535,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:39:06]|h|r Теперь вы лидер группы.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687544,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:39:06]|h|r Ваша группа расформирована.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687544,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:39:06]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Пшенобанное:1372:CHANNEL:1|h|cffaad372Пшенобанное|r|h|cffd8d8d8]|r: |Hquestie:10588:Player-4474-0387C418|h|cFFFFFF00[|r|cFFFFFF00[70+] Код Проклятия|r|cFFFFFF00]|r|h есть кто?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						202, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687544,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:39:50]|h|r Ваша добыча: |cffffffff|Hitem:22785::::::::70:::::::::|h[Сквернопля]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687588,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:41:03]|h|r Ваша добыча: |cffffffff|Hitem:22792::::::::70:::::::::|h[Ползучий кошмарник]|h|rx3.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687661,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:42:37]|h|r Ваша добыча: |cffffffff|Hitem:22792::::::::70:::::::::|h[Ползучий кошмарник]|h|rx2.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635687755,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:46:05]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Пшенобанное-Пламегор:2348:CHANNEL:1|h|cffaad372Пшенобанное|r|h|cffd8d8d8]|r: |Hquestie:10588:Player-4474-0387C418|h|cFFFFFF00[|r|cFFFFFF00[70+] Код Проклятия|r|cFFFFFF00]|r|h танк\\хил есть или нёу?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						202, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635687963,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:47:22]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Отецаладий:2558:CHANNEL:1|h|cfffff468Отецаладий|r|h|cffd8d8d8]|r: есть кто на кв |Hquestie:10588:Player-4474-031F4E2B|h|cFFFFFF00[|r|cFFFFFF00[70+] Код Проклятия|r|cFFFFFF00]|r|h ?",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						314, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635688040,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:48:00]|h|r |cffd8d8d8[|r|Hplayer:Растрахан:2628|h|cffd8d83f70|r:|cff0070ddРастрахан|r|h|cffd8d8d8]|r входит в игру.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635688078,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:48:12]|h|r Ваша добыча: |cffffffff|Hitem:23424::::::::70:::::::::|h[Руда оскверненного железа]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635688090,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:48:12]|h|r Ваша добыча: |cffffffff|Hitem:22573::::::::70:::::::::|h[Частица земли]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635688090,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:48:16]|h|r Ваша добыча: |cffffffff|Hitem:23424::::::::70:::::::::|h[Руда оскверненного железа]|h|r.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635688094,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:49:07]|h|r |cffd8d8d8[|r|Hplayer:Аристоль:2795|h|cffd8d83f70|r:|cffffffffАристоль|r|h|cffd8d8d8]|r входит в игру.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						115, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635688145,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:50:00]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Отецаладий-Пламегор:2926:CHANNEL:1|h|cfffff468Отецаладий|r|h|cffd8d8d8]|r: Танк Хил ДД на кв |Hquestie:10588:Player-4474-031F4E2B|h|cFFFFFF00[|r|cFFFFFF00[70+] Код Проклятия|r|cFFFFFF00]|r|h",
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						314, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.7529412508010864,
+					["serverTime"] = 1635688198,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7529412508010864,
+					["r"] = 1,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:50:45]|h|r Ваша добыча: |cffffffff|Hitem:22789::::::::70:::::::::|h[Терошишка]|h|rx3.",
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						167, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635688243,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.6666666865348816,
+					["r"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:50:59]|h|r Ваша добыча: 17 |4серебряная:серебряные:серебряных;, 28 |4медная монета:медные монеты:медных монет;.",
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						352, -- [3]
+						353, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1635688257,
+					["timestamp"] = 1325827.985,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:52:16]|h|r Сообщение дня от гильдии: Привет! Не забывайте отмечаться в канале #анонсы в дискорде!",
+					["serverTime"] = 1635699568,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1325827.985,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:52:31]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Фэрэдумнезеу-Пламегор:41:GUILD|h|cffd8d83f70|r:|cfffff468Фэрэдумнезеу|r|h|cffd8d8d8]|r: общий салам",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699149,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:52:42]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Крошкатралл-Пламегор:82:GUILD|h|cffd8d83f70|r:|cff0070ddКрошкатралл|r|h|cffd8d8d8]|r: дроу",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699160,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						38, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:53:07]|h|r |cffd8d8d8[|r|Hplayer:Фоки:168|h|cffd8d83f70|r:|cfffff468Фоки|r|h|cffd8d8d8]|r входит в игру.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699185,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						89, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:53:13]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Релиза-Пламегор:192:GUILD|h|cffd8d83f70|r:|cffffffffРелиза|r|h|cffd8d8d8]|r: привет)",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699191,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						38, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:53:30]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Лес Тероккар]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699208,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						124, -- [3]
+						125, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:53:30]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Лес Тероккар]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699208,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						127, -- [3]
+						128, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:54:46]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Драло:519:CHANNEL:1|h|cffffffffДрало|r|h|cffd8d8d8]|r: |Hquestie:10930:Player-4474-0393217C|h|cFF40C040[|r|cFF40C040[65+] Большой костяной червь|r|cFF40C040]|r|h есть кто?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699284,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						124, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:00]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Шаттрат]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699298,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						124, -- [3]
+						125, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:00]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Шаттрат]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699298,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						127, -- [3]
+						128, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:04]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Рефрешерорб:592:CHANNEL:2|h|cffffffffРефрешерорб|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tХприст 1750 ищу кару|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_6:0|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699302,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						181, -- [3]
+						182, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Криптоинвест:602:CHANNEL:2|h|cffc69b6dКриптоинвест|r|h|cffd8d8d8]|r: Куплю портал в шатр",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699304,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						181, -- [3]
+						186, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Домохазяйка:636:CHANNEL:2|h|cff3fc6eaДомохазяйка|r|h|cffd8d8d8]|r: продам услуги фрост мага СПД 1000+, предложения в личку",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699314,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						181, -- [3]
+						192, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Фогад-Пламегор:644:CHANNEL:2|h|cffc69b6dФогад|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|tЗАЧАРЮ МАНГУСТ ВЕПРЬ КОШКА ++|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_2:0|t ваши реги",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699317,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						181, -- [3]
+						194, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:22]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Сквернорукий-Пламегор:654:CHANNEL:2|h|cff8787edСквернорукий|r|h|cffd8d8d8]|r: Афлик/СлСл 1700+ ищу Рдру/ШП/ДЦ в 2х2",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699320,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						181, -- [3]
+						196, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:22]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Лес Тероккар]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699320,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						124, -- [3]
+						125, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:22]|h|r |Hchannel:channel:2|h[2] |h Вы покинули канал |Hchannel:CHANNEL:2|h[2. Торговля: Город]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699320,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						181, -- [3]
+						198, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:22]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Лес Тероккар]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699320,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						127, -- [3]
+						128, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:34]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Зангартопь]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699332,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						124, -- [3]
+						125, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:55:34]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Зангартопь]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699332,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						127, -- [3]
+						128, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:57:14]|h|r |Hchannel:channel:1|h[1] |h Смена канала: |Hchannel:CHANNEL:1|h[1. Общий: Острогорье]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699432,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						124, -- [3]
+						125, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:57:14]|h|r |Hchannel:channel:3|h[3] |h Смена канала: |Hchannel:CHANNEL:3|h[3. Оборона: Острогорье]|h.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699432,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						127, -- [3]
+						128, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:58:35]|h|r |cffd8d8d8[|r|Hplayer:Иргирсар:1193|h|cffd8d83f70|r:|cfff48cbaИргирсар|r|h|cffd8d8d8]|r входит в игру.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699513,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						89, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "0 |4день:дня:дней;, 0 |4час:часа:часов;, 0 |4минута:минуты:минут;, 55 |4секунда:секунды:секунд;.",
+					["timestamp"] = 1325827.985,
+				}, -- [69]
+				{
+					["message"] = "========== Конец истории сообщений ==========",
+					["timestamp"] = 1325827.985,
+				}, -- [70]
+				{
+					["message"] = "MSBT: Skill ID 128939 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [71]
+				{
+					["message"] = "MSBT: Skill ID 112965 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [72]
+				{
+					["message"] = "MSBT: Skill ID 59052 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [73]
+				{
+					["message"] = "MSBT: Skill ID 51124 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [74]
+				{
+					["message"] = "MSBT: Skill ID 77762 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [75]
+				{
+					["message"] = "MSBT: Skill ID 62401 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [76]
+				{
+					["message"] = "MSBT: Skill ID 69369 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [77]
+				{
+					["message"] = "MSBT: Skill ID 59057 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [78]
+				{
+					["message"] = "MSBT: Skill ID 52437 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [79]
+				{
+					["message"] = "MSBT: Skill ID 81340 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [80]
+				{
+					["message"] = "MSBT: Skill ID 53390 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [81]
+				{
+					["message"] = "MSBT: Skill ID 234153 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [82]
+				{
+					["message"] = "MSBT: Skill ID 51915 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [83]
+				{
+					["message"] = "MSBT: Skill ID 60945 has been removed by Blizzard.",
+					["timestamp"] = 1325811.057,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:21]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 1325811.057,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:26]|h|r |cffffe566{VuhDo}|r VuhDo |cffffe566['vu:du:]|r v3.128-tbcc (use /vd). Currently maintained by Ivaria@US-Hyjal in honor of Marshy and our newborn daughter Kiana.",
+					["r"] = 1,
+					["timestamp"] = 1325811.057,
+					["g"] = 0.7,
+					["b"] = 0.2,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:30]|h|r Сообщение дня от гильдии: Привет! Не забывайте отмечаться в канале #анонсы в дискорде!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1325827.599,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:30]|h|r |cffff00ff[Attune]|r v245 от Cixi@Remulos. Наберите /attune для начала работы.",
+					["timestamp"] = 1325827.985,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:31]|h|r |cFF99CC33SlapMeBoiiiiii|r [|cFF20ff20v0.6|r] loaded. Setting tab via /smb",
+					["timestamp"] = 1325827.985,
+					["serverTime"] = 1635699568,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:32]|h|r |cffffe566{VuhDo}|r Профиль успешно загружен: Фэрэдумнезеу: Bit'o'Grid",
+					["r"] = 1,
+					["serverTime"] = 1635699569,
+					["timestamp"] = 1325827.985,
+					["g"] = 0.7,
+					["b"] = 0.2,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:36]|h|r |cFFffff00[Questie]|r Игровое событие 'Hallow's End' активно!",
+					["timestamp"] = 1325833.735,
+					["serverTime"] = 1635699573,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:38]|h|r |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Ваша версия Deadly Boss Mods устарела.",
+					["r"] = 0.41,
+					["serverTime"] = 1635699575,
+					["timestamp"] = 1325835.894,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:38]|h|r |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r  Версия 2.5.18 (2021/10/26 00:00:00) доступна для загрузки через Curse, WoWI, или со страницы релизов GitHub",
+					["r"] = 0.41,
+					["serverTime"] = 1635699575,
+					["timestamp"] = 1325835.894,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:00:28]|h|r Наташа говорит: Антеларион говорит, что я упала с огромной птицы, и когда падала, он меня подхватил... Он такой милый!",
+					["serverTime"] = 1635699626,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1325886.053,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:04]|h|r Арторн Песня Ветра приветствует пустельгу, которая помогла найти камни в форме ворона.",
+					["serverTime"] = 1635699662,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						72, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1325921.848,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:06]|h|r Арторн Песня Ветра говорит: Без твоей помощи, юная пустельга, поиски книги Ворона заняли бы годы. Возвращайся домой в Награнд с нашей благодарностью.",
+					["serverTime"] = 1635699664,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1325924.122,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:17]|h|r Арторн Песня Ветра говорит: Это она! Это правда она – Книга Ворона!",
+					["serverTime"] = 1635699675,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1325935.336,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:24]|h|r Арторн Песня Ветра говорит: Ага, вот оно... как последователи Ворона ловили и подчиняли души соперников, навеки заключая их в каменные статуи. Табличка даже упоминает имя бога-Ворона: Анзу. Я думала, это утрачено для истории!",
+					["serverTime"] = 1635699682,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1325941.875,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:30]|h|r Арторн Песня Ветра говорит: Вот здесь есть кое-что еще. После описания кровавой битвы и падения ворона идет пророчество. Анзу явится в снах своих врагов, засасывая их туда все глубже и не давая вернуться в этот мир...",
+					["serverTime"] = 1635699688,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1325948.458,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:01:40]|h|r Арторн Песня Ветра говорит: Как я и думала, в этой табличке содержится нужное нам подтверждение. Теперь мы должны использовать эту информацию, чтобы выманить и уничтожить этого Анзу до того, как он сможет нанести еще больший урон Изумрудному Сну!",
+					["serverTime"] = 1635699698,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1325958.184,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:03:57]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Шинук:788:CHANNEL:1|h|cfff48cbaШинук|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00КРЕАТИВ|r|cffffffff>|r для усиления:",
+					["serverTime"] = 1635699835,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						144, -- [3]
+						145, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326095.392,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:03:57]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Шинук:789:CHANNEL:1|h|cfff48cbaШинук|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00МАГ, ЭЛЕМ, ХАНТ|r|cffffffff>|r т5_9/10",
+					["serverTime"] = 1635699835,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						144, -- [3]
+						145, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326095.392,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:03:57]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Шинук:790:CHANNEL:1|h|cfff48cbaШинук|r|h|cffd8d8d8]|r: РТ - ср/чтв/пнд с 20:30. EPGP.",
+					["serverTime"] = 1635699835,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						144, -- [3]
+						145, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326095.392,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:04:35]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Куахома-Пламегор:907:CHANNEL:1|h|cffff7c0aКуахома|r|h|cffd8d8d8]|r: В Сеттеккские залы (нормал) нужен ,хил,",
+					["serverTime"] = 1635699873,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						144, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326133.025,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:07:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Шинук-Пламегор:1476:CHANNEL:1|h|cfff48cbaШинук|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00КРЕАТИВ|r|cffffffff>|r для усиления:",
+					["serverTime"] = 1635700052,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						144, -- [3]
+						145, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326312.228,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:07:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Шинук-Пламегор:1477:CHANNEL:1|h|cfff48cbaШинук|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00МАГ, ЭЛЕМ, ХАНТ|r|cffffffff>|r т5_9/10",
+					["serverTime"] = 1635700052,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						144, -- [3]
+						145, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326312.228,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:07:34]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Шинук-Пламегор:1479:CHANNEL:1|h|cfff48cbaШинук|r|h|cffd8d8d8]|r: РТ - ср/чтв/пнд с 20:30. EPGP.",
+					["serverTime"] = 1635700052,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						144, -- [3]
+						145, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326312.228,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:08:29]|h|r |cffd8d8d8[|r|Hplayer:Хэя:1602|h|cffd8d83f70|r:|cffaad372Хэя|r|h|cffd8d8d8]|r входит в игру.",
+					["serverTime"] = 1635700107,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						227, -- [3]
+						228, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1326367.503,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:09:31]|h|r |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Гильдия вступает в бой с Кель'тас Солнечный Скиталец",
+					["r"] = 0.41,
+					["serverTime"] = 1635700169,
+					["timestamp"] = 1326429.284,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [109]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

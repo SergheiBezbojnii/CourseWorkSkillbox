@@ -1,0 +1,70 @@
+
+IceCoreDB = {
+	["global"] = {
+		["lastRunVersion"] = 20220128172218,
+	},
+	["profileKeys"] = {
+		["Предлагаю - Пламегор"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["TargetInfo"] = {
+					["myTagVersion"] = 3,
+					["debuffSizeFixup"] = true,
+					["updateAurasIntoTable"] = true,
+				},
+				["TargetCast"] = {
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+					["updatedReverseInverse"] = true,
+				},
+				["SunderCount"] = {
+				},
+				["PlayerHealth"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["CastBar"] = {
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+					["updatedReverseInverse"] = true,
+				},
+				["TargetHealth"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["PlayerMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["PetMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["LacerateCount"] = {
+				},
+				["TargetMana"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+				["MaelstromCount"] = {
+				},
+				["PetHealth"] = {
+					["updatedReverseInverse"] = true,
+					["myTagVersion"] = 3,
+					["updatedInverseExpand"] = true,
+				},
+			},
+			["updatedOocNotFull"] = true,
+			["minimap"] = {
+				["minimapPos"] = 263.0389956319795,
+			},
+		},
+	},
+}

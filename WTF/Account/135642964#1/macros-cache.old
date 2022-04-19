@@ -1,0 +1,47 @@
+VER 3 000000000000000B "111111" "INV_MISC_QUESTIONMARK"
+/click PetActionButton5
+/click PetActionButton4
+/click PetActionButton3
+END
+VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('Нет доступных заклинаний')
+END
+VER 3 0000000000000002 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000005 "NS CHA" "132306"
+/stopcasting
+/use Сущность Мученика
+/cast  Природная стремительность
+/cast [nomod,@mouseover,help,nodead] Цепное исцеление
+END
+VER 3 0000000000000006 "NS HUI" "136197"
+/stopcasting
+/use Сущность Мученика
+/cast  Природная стремительность
+/cast [nomod,@mouseover,help,nodead] Волна исцеления
+END
+VER 3 0000000000000007 "SHIT" "136210"
+#showtooltip Щит земли
+/cast [@mouseover,exists,help][@player ]Щит земли
+END
+VER 3 0000000000000009 "ВФ" "136180"
+#showtooltip
+/castsequence reset=8 Тотем неистовства ветра, Тотем силы земли
+END
+VER 3 0000000000000008 "ЛОВК" "136162"
+#showtooltip
+/castsequence reset=2 Тотем легкости воздуха, Тотем силы земли
+END
+VER 3 0000000000000003 "МВ5" "132106"
+#showtooltip Малая волна исцеления
+/cast [@mouseover,exists,help][@player] Слабая волна исцеления(5-й уровень)
+END
+VER 3 0000000000000004 "МВ7" "132104"
+#showtooltip Малая волна исцеления
+/cast [@mouseover,exists,help][@player ]Слабая волна исцеления(7-й уровень)
+END
+VER 3 000000000000000A "ааааааааа" "132097"
+/click PetActionButton5
+/click PetActionButton4
+/click PetActionButton3
+END

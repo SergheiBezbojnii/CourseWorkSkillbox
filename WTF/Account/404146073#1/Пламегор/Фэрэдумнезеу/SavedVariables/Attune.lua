@@ -1,0 +1,25 @@
+
+AttuneLastViewed = "The Burning CrusadeРейды190"
+TreeExpandStatus = {
+	["The Burning CrusadeРейды140"] = 1,
+	["The Burning CrusadeГероики104"] = 1,
+	["The Burning Crusade30"] = 1,
+	["WoW ClassicРейды"] = 1,
+	["The Burning CrusadeГероики106"] = 1,
+	["The Burning CrusadeКлючи"] = 1,
+	["WoW ClassicКлючи"] = 1,
+	["The Burning CrusadeГероики"] = 1,
+	["The Burning CrusadeРейды106"] = 1,
+	["The Burning CrusadeРейды"] = 1,
+	["The Burning Crusade"] = 1,
+	["The Burning CrusadeКлючи80"] = 1,
+	["The Burning CrusadeРейды190"] = 1,
+	["WoW Classic"] = 1,
+	["The Burning CrusadeРейды180"] = 1,
+	["The Burning CrusadeРазное"] = 1,
+	["The Burning CrusadeГероики107"] = 1,
+	["The Burning CrusadeРазное260"] = 1,
+	["WoW ClassicРазное"] = 1,
+	["The Burning CrusadeГероики108"] = 1,
+	["The Burning CrusadeРейды120"] = 1,
+}

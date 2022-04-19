@@ -1,0 +1,53 @@
+VER 3 0000000001000012 "2 трини" "135916"
+/castsequence reset=120 Сущность Мученика, item:38288
+/use Природная стремительность
+/use [nomod, @mouseover, help, nodead] Цепное исцеление
+END
+VER 3 000000000100000B "Buff'o'mat" "Ability_Druid_DemoralizingRoar"
+#showtooltip
+/bom update
+1
+END
+VER 3 0000000001000014 "VuhDoDCShieldData" "132281"
+P1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000015 "VuhDoDCShieldNames" "132281"
+NЧёр[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Киз[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000011 "БУРСТЫ" "136140"
+#showtooltip
+/castsequence reset=8 Тотем элементаля огня, Кровожадность
+END
+VER 3 000000000100000E "Кастеры" "135857"
+#showtooltip
+/castsequence reset=8 Тотем гнева воздуха, Тотем исцеляющего потока
+END
+VER 3 000000000100000F "Милики" "132264"
+#showtooltip
+/castsequence reset=8 Тотем неистовства ветра, Тотем силы земли
+END
+VER 3 0000000001000002 "ТОПДПС" "132094"
+#showtooltip
+/castsequence reset=8 Тотем неистовства ветра, Тотем легкости воздуха
+END
+VER 3 0000000001000010 "Ханты" "132164"
+#showtooltip
+/castsequence reset=8 Тотем легкости воздуха,, Тотем силы земли
+END
+VER 3 0000000001000013 "аааааааааааааааа" "132091"
+/click PetActionButton5
+/click PetActionButton4
+/click PetActionButton3  
+        
+        
+END
+VER 3 0000000001000006 "нска" "135769"
+/use Сущность Мученика
+/cast  Природная стремительность
+/cast [nomod,@mouseover,help,nodead] Волна исцеления
+END
+VER 3 0000000001000007 "нска цепуха" "135768"
+/use item:38288
+/cast Природная стремительность
+/cast [nomod,@mouseover,help,nodead] Цепное исцеление
+END

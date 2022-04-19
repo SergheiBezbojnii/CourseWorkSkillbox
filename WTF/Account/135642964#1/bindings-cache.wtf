@@ -1,0 +1,28 @@
+bind BUTTON3 STARTAUTORUN
+bind Q CLICK BT4Button69:LeftButton
+bind E CLICK BT4Button25:LeftButton
+bind NUMPAD0 NONE
+bind X NONE
+bind Z CLICK BT4Button67:LeftButton
+bind NUMLOCK NONE
+bind BUTTON4 NONE
+bind R NONE
+bind 2 ACTIONBUTTON3
+bind 3 ACTIONBUTTON4
+bind 4 ACTIONBUTTON6
+bind 5 ACTIONBUTTON7
+bind 6 NONE
+bind 7 NONE
+bind 8 NONE
+bind 0 NONE
+bind - NONE
+bind = NONE
+bind SHIFT-1 CLICK BT4Button34:LeftButton
+bind SHIFT-2 CLICK BT4Button33:LeftButton
+bind TAB CLICK BT4Button72:LeftButton
+bind F1 NONE
+bind F2 NONE
+bind SHIFT-BUTTON5 ACTIONBUTTON1
+bind BUTTON5 TOGGLEAUTORUN
+bind CAPSLOCK NONE
+bind ; TOGGLEGUILDTAB

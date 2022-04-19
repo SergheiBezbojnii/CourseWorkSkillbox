@@ -1,0 +1,11 @@
+## Interface: 20502
+## Title: SlapMeBoiiiiii
+## Notes: KEKW. Play Gachi sound on critical hit
+## Version: v0.6
+## Author: Суизи <Мурлок Шоп>
+## SavedVariablesPerCharacter: SMB_DB
+
+libs\LibStub\LibStub.lua
+
+SlapMeBoiiiiii.lua
+config.lua
